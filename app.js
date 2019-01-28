@@ -81,7 +81,7 @@ new Promise(async (resolve, reject) => {
                             price: item.querySelector('ul.list-unstyled > li:nth-child(4) > span:nth-child(1)')
                                 .innerText,
                             link: item.querySelector('.list-item-link').getAttribute('href'),
-                            image: item.querySelector('a > div > img ').src,
+                            image: item.querySelector('a > div > img ').src.replace('108x81', '640x480'),
                             address: item.querySelector('.address').innerText,
                             availability: item.querySelector('span:nth-child(2) > ul:nth-child(1) > li:nth-child(1)')
                                 .innerText
@@ -94,11 +94,11 @@ new Promise(async (resolve, reject) => {
             });
             urls = urls.concat(newUrls);
             if (currentPage < pagesToScrape) {
-                // await delay(5000);
-                // await Promise.all([
-                //     await page.click('img[src*="/img/controls/arrow_orange_right.svg"]')[0],
-                //     await page.waitForSelector('#listContent')
-                // ]).catch(e => dumpError(e));
+                await delay(5000);
+                await Promise.all([
+                    await page.click('img[src*="/img/controls/arrow_orange_right.svg"]')[0],
+                    await page.waitForSelector('#listContent')
+                ]).catch(e => dumpError(e));
             }
             currentPage++;
         }
