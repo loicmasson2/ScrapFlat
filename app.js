@@ -25,8 +25,9 @@ new Promise(async (resolve, reject) => {
         const websiteUrl = 'https://www.vuokraovi.com/?locale=en';
         const browser = await puppeteer.launch({ devtools: true });
         const page = await browser.newPage();
-        await page.setViewport({ width: 1920, height: 926 });
+        await page.setViewport({ width: 1920, height: 1080 });
         await page.goto(websiteUrl);
+
         // wait to have the input for the city
         await page.waitForSelector('#inputLocationOrRentalUniqueNo');
         // add the city
@@ -45,7 +46,8 @@ new Promise(async (resolve, reject) => {
         await page.type('#surfaceMax', '90');
         await page.focus('#inputLocationOrRentalUniqueNo');
 
-        await page.click('.row-quick-search-btn > .margin-top-xs-0 > button:nth-child(1)');
+        await page.click('.margin-top-xs-0 > button:nth-child(1)');
+        // await page.waitForNavigation();
 
         await page.waitForSelector('#listContent');
         const nbrFlastText = await page.evaluate(() =>
@@ -74,10 +76,25 @@ new Promise(async (resolve, reject) => {
                 try {
                     let results = [];
                     let items = document.querySelectorAll('div.list-item-container');
+                    let hasSauna = new RegExp('\\s*\\+*(s|sauna)\\+*\\s*', 'gi');
+                    let hasKitchen = new RegExp('\\s*\\+*(k|Keittiö)\\+*\\s*', 'gi');
+                    let hasBalcony = new RegExp('\\s*\\+*(p|Parveke)\\+*\\s*', 'gi');
+                    let hasBathroom = new RegExp('\\s*\\+*(kph|kh|Kylpyhuone)\\+*\\s*', 'gi');
                     items.forEach(item => {
+                        let moreInfo = item.querySelector('ul.list-unstyled > li.semi-bold:nth-child(2)').innerText;
+                        console.log(
+                            `Item ${item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText}`
+                        );
                         results.push({
                             name: item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText,
-                            moreInfo: item.querySelector('ul.list-unstyled > li.semi-bold:nth-child(2)').innerText,
+                            moreInfo: {
+                                moreInfo,
+                                nbrRooms: moreInfo.substr(0, moreInfo.indexOf('h')),
+                                hasSauna: hasSauna.test(moreInfo),
+                                hasKitchen: hasKitchen.test(moreInfo),
+                                hasBalcony: hasBalcony.test(moreInfo),
+                                hasBathroom: hasBathroom.test(moreInfo)
+                            },
                             price: item.querySelector('ul.list-unstyled > li:nth-child(4) > span:nth-child(1)')
                                 .innerText,
                             link: item.querySelector('.list-item-link').getAttribute('href'),
@@ -93,13 +110,14 @@ new Promise(async (resolve, reject) => {
                 }
             });
             urls = urls.concat(newUrls);
+            console.log(`current page ${currentPage}`);
             if (currentPage < pagesToScrape) {
-                await delay(5000);
                 await Promise.all([
-                    await page.click('img[src*="/img/controls/arrow_orange_right.svg"]')[0],
+                    await page.evaluate(selector => document.querySelector(selector).click(), 'img[src*="right.svg"]'),
                     await page.waitForSelector('#listContent')
                 ]).catch(e => dumpError(e));
             }
+            await delay(5000);
             currentPage++;
         }
         let json = JSON.stringify(urls);
@@ -109,4 +127,10 @@ new Promise(async (resolve, reject) => {
     } catch (e) {
         return dumpError(e);
     }
-}).then(console.log, e => dumpError(e));
+}).then(
+    urls => {
+        // console.log(urls);
+        console.log(`Number of flat ${urls.length}`);
+    },
+    e => dumpError(e)
+);
