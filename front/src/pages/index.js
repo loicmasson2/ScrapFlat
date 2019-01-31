@@ -146,7 +146,13 @@ export const query = graphql`
                     availability
                     image
                     link
-                    moreInfo
+                    moreInfo {
+                        moreInfo
+                        hasSauna
+                        hasKitchen
+                        hasBathroom
+                        hasBalcony
+                    }
                     name
                     price
                 }
