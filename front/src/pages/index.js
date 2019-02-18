@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { graphql } from 'gatsby';
 import { deepMerge } from 'grommet/utils';
+import ReactMapGL from 'react-map-gl';
 import {
     Box,
     Button,
@@ -53,12 +54,16 @@ const AppBar = props => (
 
 class IndexPage extends React.Component {
     state = {
+        viewport: {
+            latitude: 60.192059,
+            longitude: 24.945831,
+            zoom: 8
+        },
         showSidebar: true
     };
     render() {
         const { showSidebar } = this.state;
         const flats = this.props.data.allDataJson.edges;
-        console.log(flats);
         return (
             <Grommet theme={theme} full>
                 <ResponsiveContext.Consumer>
@@ -66,7 +71,7 @@ class IndexPage extends React.Component {
                         <Box fill>
                             <AppBar>
                                 <Heading level="3" margin="none">
-                                    My App
+                                    Scrap Flat
                                 </Heading>
                                 <Button
                                     icon={<Notification />}
@@ -76,16 +81,13 @@ class IndexPage extends React.Component {
                             <Box direction="row" flex overflow={{ horizontal: 'hidden' }}>
                                 <Box flex align="center" justify="center">
                                     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                                    <h1>Hi people</h1>
-                                    <p>Welcome to your new Gatsby site.</p>
-                                    <p>Now go build something great.</p>
-                                    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-                                        <Image />
-                                    </div>
-                                    <Link to="/page-2/">Go to page 2</Link>
-                                    <Button
-                                        icon={<FormClose />}
-                                        onClick={() => this.setState({ showSidebar: false })}
+                                    <ReactMapGL
+                                        {...this.state.viewport}
+                                        width="100%"
+                                        height="100%"
+                                        mapStyle="mapbox://styles/loicmasson/cjr81xe2o07l42so0vcxxw1pn"
+                                        mapboxApiAccessToken="pk.eyJ1IjoibG9pY21hc3NvbiIsImEiOiJjanI4MXN4MWswMXZhNDNtbHN5dzZzanlsIn0.4fw0ARbOrTr88AHvIEaVyw"
+                                        onViewportChange={viewport => this.setState({ viewport })}
                                     />
                                 </Box>
                                 {!showSidebar || size !== 'small' ? (
@@ -106,7 +108,7 @@ class IndexPage extends React.Component {
                                                             <Image fit="contain" src={flat.node.image} alt="test" />
                                                         </Box>
                                                         <Heading size="small" level="3">
-                                                            {flat.node.address}
+                                                            <Link to={flat.node.link}>{flat.node.address}</Link>
                                                         </Heading>
                                                         <Text margin="small" size="large">
                                                             {flat.node.price}

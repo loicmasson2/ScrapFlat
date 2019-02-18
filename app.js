@@ -2,6 +2,8 @@ const puppeteer = require('puppeteer');
 const { TimeoutError } = require('puppeteer/Errors');
 const fs = require('file-system');
 
+process.setMaxListeners(Infinity); // <== Important line
+
 function dumpError(err) {
     if (typeof err === 'object') {
         if (err.message) {
@@ -19,7 +21,7 @@ function dumpError(err) {
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-new Promise(async (resolve, reject) => {
+async function getInitialData() {
     try {
         let pagesToScrape = 1;
         const websiteUrl = 'https://www.vuokraovi.com/?locale=en';
@@ -39,8 +41,8 @@ new Promise(async (resolve, reject) => {
         let ROOM_3_BUTTON = '#roomCountButtons > div:nth-child(3) > button:nth-child(1)';
         await page.click(ROOM_3_BUTTON);
         // pick the minimum price and the maximum
-        await page.type('#rentalsMinRent', '600');
-        await page.type('#rentalsMaxRent', '1200');
+        await page.type('#rentalsMinRent', '800');
+        await page.type('#rentalsMaxRent', '1600');
         // minimum surface and maximum
         await page.type('#surfaceMin', '30');
         await page.type('#surfaceMax', '90');
@@ -82,9 +84,6 @@ new Promise(async (resolve, reject) => {
                     let hasBathroom = new RegExp('\\s*\\+*(kph|kh|Kylpyhuone)\\+*\\s*', 'gi');
                     items.forEach(item => {
                         let moreInfo = item.querySelector('ul.list-unstyled > li.semi-bold:nth-child(2)').innerText;
-                        console.log(
-                            `Item ${item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText}`
-                        );
                         results.push({
                             name: item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText,
                             moreInfo: {
@@ -97,7 +96,9 @@ new Promise(async (resolve, reject) => {
                             },
                             price: item.querySelector('ul.list-unstyled > li:nth-child(4) > span:nth-child(1)')
                                 .innerText,
-                            link: item.querySelector('.list-item-link').getAttribute('href'),
+                            link:
+                                'https://www.vuokraovi.com' +
+                                item.querySelector('.list-item-link').getAttribute('href'),
                             image: item.querySelector('a > div > img ').src.replace('108x81', '640x480'),
                             address: item.querySelector('.address').innerText,
                             availability: item.querySelector('span:nth-child(2) > ul:nth-child(1) > li:nth-child(1)')
@@ -120,17 +121,68 @@ new Promise(async (resolve, reject) => {
             await delay(5000);
             currentPage++;
         }
+
+        // page.removeAllListeners();
+        try {
+            for (let i = 0; i < urls.length; i++) {
+                if (urls[i] !== null || urls[i] !== 'undefined') {
+                    const url = urls[i].link;
+                    await page.goto(`${url}`);
+                    let functionToInject = function() {
+                        return window.digitalData;
+                    };
+                    let data = await page.evaluate(functionToInject);
+                    let [productInfo] = data.product;
+                    urls[i].productInfo = productInfo;
+                    urls[i].imageGallery = await page.evaluate(() => {
+                        let allImages = [];
+                        let els = document.getElementsByClassName('cycle-slide');
+                        Array.from(els).forEach(el => {
+                            // Do stuff here
+                            allImages.push('https:' + el.attributes[0].value);
+                        });
+                        return allImages;
+                    });
+                    await delay(5000);
+                }
+            }
+        } catch (e) {
+            dumpError(e);
+        }
         let json = JSON.stringify(urls);
         fs.writeFile('myjsonfile.json', json, 'utf8');
+
         await browser.close();
-        return resolve(urls);
+        return urls;
     } catch (e) {
         return dumpError(e);
     }
-}).then(
-    urls => {
-        // console.log(urls);
-        console.log(`Number of flat ${urls.length}`);
-    },
-    e => dumpError(e)
-);
+}
+// async function getMoreData() {
+//     let listFlats = await getInitialData();
+//     const browser = await puppeteer.launch({ devtools: true });
+//     const page = await browser.newPage();
+//     await page.setViewport({ width: 1920, height: 1080 });
+//     listFlats.map(async flat => {
+//         // console.log(flat.link);
+//         await page.goto(flat.link);
+//         await page.waitForNavigation();
+//         let functionToInject = function() {
+//             return window.digitalData;
+//         };
+//         let data = await page.evaluate(functionToInject);
+//         console.log(data);
+//         let imageGallery = await page.evaluate(() => {
+//             let allImages = [];
+//             let items = document.getElementsByClassName('cycle-slide');
+//             items.map(item => {
+//                 allImages.push(item);
+//             });
+//             return allImages;
+//         });
+//         console.log(imageGallery);
+//         await delay(5000);
+//     });
+// }
+
+getInitialData();
