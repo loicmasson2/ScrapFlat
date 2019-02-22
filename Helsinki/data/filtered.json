@@ -1,0 +1,4664 @@
+[
+    {
+        "address": "Vanha Yrttimaantie 22",
+        "latitude": 60.269191,
+        "longitude": 25.012675,
+        "nbr_rooms": "2",
+        "postal_code": "00730",
+        "price": 976,
+        "size": 57.5
+    },
+    {
+        "address": " Kunnalliskodintie 6 B 41",
+        "latitude": 60.216709,
+        "longitude": 24.967408,
+        "nbr_rooms": "3",
+        "postal_code": "00600",
+        "price": 736.47,
+        "size": 63
+    },
+    {
+        "address": "Kunnalliskodintie 6 C 49",
+        "latitude": 60.216709,
+        "longitude": 24.967408,
+        "nbr_rooms": "3",
+        "postal_code": "00600",
+        "price": 736.47,
+        "size": 63
+    },
+    {
+        "address": "Nils Westermarckin kuja 18",
+        "latitude": 60.230321,
+        "longitude": 25.045043,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 999,
+        "size": 48.5
+    },
+    {
+        "address": "Aittatie 2 A",
+        "latitude": 60.233186,
+        "longitude": 24.845295,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 830,
+        "size": 54.5
+    },
+    {
+        "address": "Vanhanlinnantie 3 E",
+        "latitude": 60.214524,
+        "longitude": 25.08762,
+        "nbr_rooms": "3",
+        "postal_code": "00900",
+        "price": 1257,
+        "size": 86
+    },
+    {
+        "address": "KOKKOKALLIONTIE 1 B",
+        "latitude": 60.228773,
+        "longitude": 24.85033,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 948,
+        "size": 54
+    },
+    {
+        "address": "HENRIKINTIE 5 C",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1176,
+        "size": 74.5
+    },
+    {
+        "address": "Vanhanlinnantie 3 C",
+        "latitude": 60.214524,
+        "longitude": 25.08762,
+        "nbr_rooms": "3",
+        "postal_code": "00900",
+        "price": 1222,
+        "size": 77
+    },
+    {
+        "address": "Kämnerintie 12",
+        "latitude": 60.277036,
+        "longitude": 25.027941,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 890,
+        "size": 54
+    },
+    {
+        "address": "Muurikuja 1 B 37",
+        "latitude": 60.195716,
+        "longitude": 24.97255,
+        "nbr_rooms": "3",
+        "postal_code": "00580",
+        "price": 1175.3,
+        "size": 85
+    },
+    {
+        "address": "Ränkitie 1",
+        "latitude": 60.283341,
+        "longitude": 25.03571,
+        "nbr_rooms": "3",
+        "postal_code": "00750",
+        "price": 1242.45,
+        "size": 80.5
+    },
+    {
+        "address": "Hakaniemenkatu 9",
+        "latitude": 60.178677,
+        "longitude": 24.954375,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1183.63,
+        "size": 54
+    },
+    {
+        "address": "Lauttasaarentie 52 B",
+        "latitude": 60.16168,
+        "longitude": 24.86697,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 1250,
+        "size": 48.5
+    },
+    {
+        "address": "Messeniuksenkatu 10 A",
+        "latitude": 60.188506,
+        "longitude": 24.91308,
+        "nbr_rooms": "3",
+        "postal_code": "00250",
+        "price": 1450,
+        "size": 79
+    },
+    {
+        "address": "Kylänevantie 6 A",
+        "latitude": 60.21267,
+        "longitude": 24.89706,
+        "nbr_rooms": "2",
+        "postal_code": "00320",
+        "price": 750,
+        "size": 38
+    },
+    {
+        "address": "Borgströminkuja 1 B",
+        "latitude": 60.175065,
+        "longitude": 25.039106,
+        "nbr_rooms": "2",
+        "postal_code": "00840",
+        "price": 795,
+        "size": 43.5
+    },
+    {
+        "address": "Maistraatinkatu 4",
+        "latitude": 60.199078,
+        "longitude": 24.92166,
+        "nbr_rooms": "2",
+        "postal_code": "00240",
+        "price": 950,
+        "size": 49.5
+    },
+    {
+        "address": "Näyttelijäntie 18",
+        "latitude": 60.231054,
+        "longitude": 24.894911,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 895,
+        "size": 49
+    },
+    {
+        "address": "Tulisuontie 20",
+        "latitude": 60.203868,
+        "longitude": 25.076004,
+        "nbr_rooms": "2",
+        "postal_code": "00930",
+        "price": 952,
+        "size": 40
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 877.37,
+        "size": 53
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 844.22,
+        "size": 51
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 963.05,
+        "size": 66
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 865.3,
+        "size": 51.5
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 822.8,
+        "size": 47.5
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 922.08,
+        "size": 60.5
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 988.04,
+        "size": 67.5
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 757.69,
+        "size": 40.5
+    },
+    {
+        "address": "Otonkuja 4",
+        "latitude": 60.16947,
+        "longitude": 25.0346,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 858.16,
+        "size": 52
+    },
+    {
+        "address": "Osmontie 25 as 3",
+        "latitude": 60.21339,
+        "longitude": 24.946693,
+        "nbr_rooms": "2",
+        "postal_code": "00610",
+        "price": 816.54,
+        "size": 62
+    },
+    {
+        "address": "Hirsipadontie 5 F",
+        "latitude": 60.23496,
+        "longitude": 24.95084,
+        "nbr_rooms": "2",
+        "postal_code": "00640",
+        "price": 930,
+        "size": 48.9
+    },
+    {
+        "address": "Katiskatie 2",
+        "latitude": 60.197569,
+        "longitude": 25.113685,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1198,
+        "size": 64
+    },
+    {
+        "address": "Castréninkatu 3",
+        "latitude": 60.184242,
+        "longitude": 24.945517,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1178,
+        "size": 51
+    },
+    {
+        "address": "Meri-Rastilan tie 5",
+        "latitude": 60.202512,
+        "longitude": 25.117045,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1118,
+        "size": 68
+    },
+    {
+        "address": "Tarkkampujankatu 14",
+        "latitude": 60.160874,
+        "longitude": 24.943542,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1499,
+        "size": 65
+    },
+    {
+        "address": "Vellamonkatu 29 D 43",
+        "latitude": 60.199572,
+        "longitude": 24.965672,
+        "nbr_rooms": "3",
+        "postal_code": "00550",
+        "price": 1503,
+        "size": 81
+    },
+    {
+        "address": "Pihkatie 6 E 47",
+        "latitude": 60.251638,
+        "longitude": 24.85656,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 904,
+        "size": 57.5
+    },
+    {
+        "address": "Klaavuntie 8-10",
+        "latitude": 60.210754,
+        "longitude": 25.097553,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 942.33,
+        "size": 47
+    },
+    {
+        "address": "Kutomotie 14",
+        "latitude": 60.215275,
+        "longitude": 24.870679,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 1099,
+        "size": 50
+    },
+    {
+        "address": "Selkämerenkatu 18",
+        "latitude": 60.160322,
+        "longitude": 24.916958,
+        "nbr_rooms": "3",
+        "postal_code": "00180",
+        "price": 1500,
+        "size": 79
+    },
+    {
+        "address": "Meri-Rastilan tie 15",
+        "latitude": 60.200065,
+        "longitude": 25.119568,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1093,
+        "size": 70
+    },
+    {
+        "address": "Roihuvuorentie 6a",
+        "latitude": 60.196058,
+        "longitude": 25.053674,
+        "nbr_rooms": "3",
+        "postal_code": "00820",
+        "price": 1165,
+        "size": 61.5
+    },
+    {
+        "address": "Vuorenpeikontie 5",
+        "latitude": 60.201626,
+        "longitude": 25.0569,
+        "nbr_rooms": "3",
+        "postal_code": "00820",
+        "price": 1174,
+        "size": 61
+    },
+    {
+        "address": "Pertunpellontie 8",
+        "latitude": 60.267241,
+        "longitude": 24.99073,
+        "nbr_rooms": "3",
+        "postal_code": "00740",
+        "price": 1402,
+        "size": 76.5
+    },
+    {
+        "address": "Käsityöläisentie 4-10",
+        "latitude": 60.273146,
+        "longitude": 25.034819,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 958,
+        "size": 45.5
+    },
+    {
+        "address": "Kiviaidankatu 7 A",
+        "latitude": 60.1542,
+        "longitude": 24.88231,
+        "nbr_rooms": "1",
+        "postal_code": "00210",
+        "price": 1254,
+        "size": 54.5
+    },
+    {
+        "address": "Palikkapolku 1",
+        "latitude": 60.237649,
+        "longitude": 24.875928,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 915,
+        "size": 50.5
+    },
+    {
+        "address": "Hanuripolku 4",
+        "latitude": 60.238721,
+        "longitude": 24.883046,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 934,
+        "size": 55.5
+    },
+    {
+        "address": "Klaneettipolku 7",
+        "latitude": 60.237649,
+        "longitude": 24.875928,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 865,
+        "size": 42
+    },
+    {
+        "address": "Laivalahdenportti 3",
+        "latitude": 60.192078,
+        "longitude": 25.034634,
+        "nbr_rooms": "2",
+        "postal_code": "00810",
+        "price": 1058,
+        "size": 64.5
+    },
+    {
+        "address": "Välimerenkatu 10",
+        "latitude": 60.159346,
+        "longitude": 24.91674,
+        "nbr_rooms": "3 ",
+        "postal_code": "00220",
+        "price": 1370,
+        "size": 55.5
+    },
+    {
+        "address": "Välimerenkatu 10",
+        "latitude": 60.159346,
+        "longitude": 24.91674,
+        "nbr_rooms": "2 ",
+        "postal_code": "00220",
+        "price": 1270,
+        "size": 52.5
+    },
+    {
+        "address": "Juhannustie 25",
+        "latitude": 60.287194,
+        "longitude": 25.016376,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 1075,
+        "size": 59.5
+    },
+    {
+        "address": "Korppaanmäentie 21",
+        "latitude": 60.20669,
+        "longitude": 24.891312,
+        "nbr_rooms": "2",
+        "postal_code": "00300",
+        "price": 1095,
+        "size": 54
+    },
+    {
+        "address": "Rionkatu 11",
+        "latitude": 60.156838,
+        "longitude": 24.920775,
+        "nbr_rooms": "2",
+        "postal_code": "00220",
+        "price": 1385,
+        "size": 57.5
+    },
+    {
+        "address": "Lupajantie 2",
+        "latitude": 60.233264,
+        "longitude": 25.10464,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 865,
+        "size": 45.5
+    },
+    {
+        "address": "Näyttelijäntie 16 F",
+        "latitude": 60.230876,
+        "longitude": 24.896114,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 870,
+        "size": 48
+    },
+    {
+        "address": "Pajamäentie 14 B",
+        "latitude": 60.218242,
+        "longitude": 24.853704,
+        "nbr_rooms": "3",
+        "postal_code": "00360",
+        "price": 1050,
+        "size": 57
+    },
+    {
+        "address": "Kirstinkatu 9 B",
+        "latitude": 60.187648,
+        "longitude": 24.94666,
+        "nbr_rooms": "2",
+        "postal_code": "00510",
+        "price": 1100,
+        "size": 52
+    },
+    {
+        "address": "Haagan Pappilantie 5 B",
+        "latitude": 60.217365,
+        "longitude": 24.897137,
+        "nbr_rooms": "2",
+        "postal_code": "00320",
+        "price": 830,
+        "size": 41
+    },
+    {
+        "address": "Plazankuja 5",
+        "latitude": 60.191364,
+        "longitude": 24.967895,
+        "nbr_rooms": "2",
+        "postal_code": "00580",
+        "price": 1185,
+        "size": 44.5
+    },
+    {
+        "address": "Tanhuantie 1",
+        "latitude": 60.236186,
+        "longitude": 25.095631,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 1230,
+        "size": 73
+    },
+    {
+        "address": "Katontekijänkuja 1",
+        "latitude": 60.252888,
+        "longitude": 25.02356,
+        "nbr_rooms": "2",
+        "postal_code": "00700",
+        "price": 1019,
+        "size": 52.5
+    },
+    {
+        "address": "Hämeentie 46",
+        "latitude": 60.186153,
+        "longitude": 24.961109,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 1100,
+        "size": 56.5
+    },
+    {
+        "address": "Kanneltie 10",
+        "latitude": 60.242349,
+        "longitude": 24.878269,
+        "nbr_rooms": "2 ",
+        "postal_code": "00420",
+        "price": 960,
+        "size": 40
+    },
+    {
+        "address": "Harustie 5",
+        "latitude": 60.203456,
+        "longitude": 25.121968,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 900,
+        "size": 43
+    },
+    {
+        "address": "Kalevankatu 38 C",
+        "latitude": 60.164702,
+        "longitude": 24.931871,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1200,
+        "size": 37
+    },
+    {
+        "address": "Pihkatie 6 B 16",
+        "latitude": 60.25231,
+        "longitude": 24.857004,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1065,
+        "size": 70
+    },
+    {
+        "address": "Yliskyläntie 2 B",
+        "latitude": 60.180809,
+        "longitude": 25.051385,
+        "nbr_rooms": "2",
+        "postal_code": "00840",
+        "price": 911,
+        "size": 45.5
+    },
+    {
+        "address": "Gunillantie 22 B",
+        "latitude": 60.1701,
+        "longitude": 25.032674,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 963,
+        "size": 41.5
+    },
+    {
+        "address": "Villiruusunkuja 3 A 1",
+        "latitude": 60.202929,
+        "longitude": 25.148272,
+        "nbr_rooms": "2 ",
+        "postal_code": "00990",
+        "price": 805.32,
+        "size": 41.5
+    },
+    {
+        "address": "Urheilukatu 9 A 6",
+        "latitude": 60.190881,
+        "longitude": 24.917308,
+        "nbr_rooms": "2",
+        "postal_code": "00250",
+        "price": 1273,
+        "size": 56
+    },
+    {
+        "address": "Mikkolankuja 4 B 82",
+        "latitude": 60.239879,
+        "longitude": 24.964853,
+        "nbr_rooms": "2",
+        "postal_code": "00640",
+        "price": 1034,
+        "size": 61.5
+    },
+    {
+        "address": "Peltokyläntie 1",
+        "latitude": 60.267709,
+        "longitude": 24.980282,
+        "nbr_rooms": "2",
+        "postal_code": "00740",
+        "price": 960,
+        "size": 52
+    },
+    {
+        "address": "Merikorttikuja 5 A",
+        "latitude": 60.217096,
+        "longitude": 25.128992,
+        "nbr_rooms": "2",
+        "postal_code": "00960",
+        "price": 840,
+        "size": 53.5
+    },
+    {
+        "address": "Eteläinen Hesperiankatu 18",
+        "latitude": 60.176861,
+        "longitude": 24.923988,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 1476,
+        "size": 61
+    },
+    {
+        "address": "Leanportti 2",
+        "latitude": 60.20234,
+        "longitude": 24.924199,
+        "nbr_rooms": "2",
+        "postal_code": "00240",
+        "price": 1086,
+        "size": 64.5
+    },
+    {
+        "address": "Gunillantie 22 B",
+        "latitude": 60.1701,
+        "longitude": 25.032674,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 932,
+        "size": 41
+    },
+    {
+        "address": "Retkeilijänkatu 3 A",
+        "latitude": 60.205946,
+        "longitude": 25.12081,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 938,
+        "size": 49
+    },
+    {
+        "address": "Suonotkontie 4 C",
+        "latitude": 60.232953,
+        "longitude": 24.935121,
+        "nbr_rooms": "3",
+        "postal_code": "00630",
+        "price": 1234,
+        "size": 78
+    },
+    {
+        "address": "Tapulikaupungintie 11 A 29",
+        "latitude": 60.276473,
+        "longitude": 25.034402,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 982.07,
+        "size": 61.5
+    },
+    {
+        "address": "Pihlajatie 45 A",
+        "latitude": 60.196443,
+        "longitude": 24.899722,
+        "nbr_rooms": "2",
+        "postal_code": "00270",
+        "price": 1020,
+        "size": 50
+    },
+    {
+        "address": "Laakavuorentie 7 B 37",
+        "latitude": 60.240787,
+        "longitude": 25.11242,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 1010.58,
+        "size": 62
+    },
+    {
+        "address": "Hernesaarenkatu 11 B",
+        "latitude": 60.15668,
+        "longitude": 24.93196,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1250,
+        "size": 49.5
+    },
+    {
+        "address": "Ruoholahdenranta 1 D",
+        "latitude": 60.16149,
+        "longitude": 24.92504,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1200,
+        "size": 43.5
+    },
+    {
+        "address": "Koirasaarentie 23",
+        "latitude": 60.171648,
+        "longitude": 25.031925,
+        "nbr_rooms": "3",
+        "postal_code": "00590",
+        "price": 1349,
+        "size": 70.5
+    },
+    {
+        "address": "Klaavuntie 6 D",
+        "latitude": 60.20983,
+        "longitude": 25.09812,
+        "nbr_rooms": "3",
+        "postal_code": "00910",
+        "price": 1300,
+        "size": 64
+    },
+    {
+        "address": "Tapulikaupungintie 13",
+        "latitude": 60.275474,
+        "longitude": 25.035829,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 913,
+        "size": 43.5
+    },
+    {
+        "address": "Tilkankatu 23b",
+        "latitude": 60.201599,
+        "longitude": 24.89548,
+        "nbr_rooms": "3",
+        "postal_code": "00300",
+        "price": 1278,
+        "size": 72.5
+    },
+    {
+        "address": "Tarkkampujankatu 14",
+        "latitude": 60.160874,
+        "longitude": 24.943542,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1499,
+        "size": 65
+    },
+    {
+        "address": "Kastelholmantie 4 D",
+        "latitude": 60.214308,
+        "longitude": 25.079705,
+        "nbr_rooms": "2",
+        "postal_code": "00900",
+        "price": 850,
+        "size": 51.5
+    },
+    {
+        "address": "Perustie 13 A",
+        "latitude": 60.197874,
+        "longitude": 24.881853,
+        "nbr_rooms": "2",
+        "postal_code": "00330",
+        "price": 990,
+        "size": 43.5
+    },
+    {
+        "address": "Puuskarinne 7 A",
+        "latitude": 60.172399,
+        "longitude": 25.082395,
+        "nbr_rooms": "2",
+        "postal_code": "00850",
+        "price": 1134,
+        "size": 63.5
+    },
+    {
+        "address": "Puuskarinne 7 B",
+        "latitude": 60.172399,
+        "longitude": 25.082395,
+        "nbr_rooms": "2",
+        "postal_code": "00850",
+        "price": 1150,
+        "size": 64
+    },
+    {
+        "address": "Ristiretkeläistenkatu 17b",
+        "latitude": 60.227567,
+        "longitude": 24.988243,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 1050,
+        "size": 46
+    },
+    {
+        "address": "Näyttelijäntie 10",
+        "latitude": 60.227984,
+        "longitude": 24.895564,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 800,
+        "size": 48
+    },
+    {
+        "address": "Aurinkotuulenkatu 6, Hellekuja 1",
+        "latitude": 60.207009,
+        "longitude": 25.158176,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1495,
+        "size": 76.5
+    },
+    {
+        "address": "Luutnantinpolku 7 E 61",
+        "latitude": 60.24649,
+        "longitude": 24.867629,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 1211,
+        "size": 77
+    },
+    {
+        "address": "Pertunpellontie 6",
+        "latitude": 60.26724,
+        "longitude": 24.991307,
+        "nbr_rooms": "3",
+        "postal_code": "00740",
+        "price": 1340,
+        "size": 68
+    },
+    {
+        "address": "Aurinkotuulenkatu 4 A",
+        "latitude": 60.207405,
+        "longitude": 25.158737,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 1187,
+        "size": 56.5
+    },
+    {
+        "address": "Tanhuantie 1",
+        "latitude": 60.236186,
+        "longitude": 25.095631,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 1218,
+        "size": 73
+    },
+    {
+        "address": "Kalevankatu 28 A",
+        "latitude": 60.165586,
+        "longitude": 24.933816,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 1130,
+        "size": 46.5
+    },
+    {
+        "address": "Alppikatu 5",
+        "latitude": 60.185031,
+        "longitude": 24.941828,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 920,
+        "size": 37
+    },
+    {
+        "address": "Itämerenkatu 30 C 50",
+        "latitude": 60.162842,
+        "longitude": 24.906392,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1283.46,
+        "size": 64.5
+    },
+    {
+        "address": "Iso-Roobertinkatu 52 B 36",
+        "latitude": 60.161194,
+        "longitude": 24.936164,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1150,
+        "size": 47
+    },
+    {
+        "address": "Tilkankatu 6",
+        "latitude": 60.203193,
+        "longitude": 24.894666,
+        "nbr_rooms": "3",
+        "postal_code": "00300",
+        "price": 1430,
+        "size": 74
+    },
+    {
+        "address": "Svanströminkuja 7",
+        "latitude": 60.165347,
+        "longitude": 25.047183,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 972.38,
+        "size": 77
+    },
+    {
+        "address": "Gunillantie 18 B",
+        "latitude": 60.169196,
+        "longitude": 25.033148,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 890,
+        "size": 39.3
+    },
+    {
+        "address": "Raatimiehenkatu 2",
+        "latitude": 60.157612,
+        "longitude": 24.953039,
+        "nbr_rooms": "2",
+        "postal_code": "00140",
+        "price": 1100,
+        "size": 45
+    },
+    {
+        "address": "Porintie 3 F",
+        "latitude": 60.204962,
+        "longitude": 24.870777,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 860,
+        "size": 47
+    },
+    {
+        "address": "Kotikonnuntie 9",
+        "latitude": 60.242672,
+        "longitude": 25.088686,
+        "nbr_rooms": "2",
+        "postal_code": "00940",
+        "price": 820,
+        "size": 52.5
+    },
+    {
+        "address": "Kaunispääntie 3 A",
+        "latitude": 60.23407,
+        "longitude": 25.127874,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 850,
+        "size": 55
+    },
+    {
+        "address": "Porttikuja 3",
+        "latitude": 60.232212,
+        "longitude": 25.085141,
+        "nbr_rooms": "2",
+        "postal_code": "00940",
+        "price": 890,
+        "size": 50
+    },
+    {
+        "address": "Köydenpunojankatu 13",
+        "latitude": 60.163729,
+        "longitude": 24.924759,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1090,
+        "size": 39
+    },
+    {
+        "address": "Pihlajatie 11 B",
+        "latitude": 60.19288,
+        "longitude": 24.90527,
+        "nbr_rooms": "2",
+        "postal_code": "00270",
+        "price": 1150,
+        "size": 62
+    },
+    {
+        "address": "Leppäsuonkatu 10 B",
+        "latitude": 60.169207,
+        "longitude": 24.922171,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 1580,
+        "size": 62.5
+    },
+    {
+        "address": "Pohjoiskaari 9b A",
+        "latitude": 60.161241,
+        "longitude": 24.892105,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 1290,
+        "size": 62
+    },
+    {
+        "address": "Toini Muonan katu 3 a",
+        "latitude": 60.206654,
+        "longitude": 24.9793,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 910,
+        "size": 42
+    },
+    {
+        "address": "Palkkatilankatu 1 B 18",
+        "latitude": 60.195761,
+        "longitude": 24.927192,
+        "nbr_rooms": "2",
+        "postal_code": "00240",
+        "price": 601.38,
+        "size": 51.5
+    },
+    {
+        "address": "Sorsavuorenkatu 14",
+        "latitude": 60.187881,
+        "longitude": 25.034356,
+        "nbr_rooms": "2",
+        "postal_code": "00810",
+        "price": 1099,
+        "size": 52
+    },
+    {
+        "address": "Tilketori 4",
+        "latitude": 60.202537,
+        "longitude": 24.893735,
+        "nbr_rooms": "3",
+        "postal_code": "00700",
+        "price": 1265,
+        "size": 69.5
+    },
+    {
+        "address": "Muotoilijankatu 20 C 28",
+        "latitude": 60.210039,
+        "longitude": 24.980545,
+        "nbr_rooms": "3",
+        "postal_code": "00560",
+        "price": 981.02,
+        "size": 75
+    },
+    {
+        "address": "Luuvakuja 10",
+        "latitude": 60.247559,
+        "longitude": 25.00657,
+        "nbr_rooms": "2",
+        "postal_code": "00700",
+        "price": 1031,
+        "size": 49
+    },
+    {
+        "address": "Maasälväntie 5-9",
+        "latitude": 60.235713,
+        "longitude": 25.010615,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 953,
+        "size": 48.5
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.208245,
+        "longitude": 25.157578,
+        "nbr_rooms": "3 ",
+        "postal_code": "00990",
+        "price": 1260,
+        "size": 65
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.206517,
+        "longitude": 25.157927,
+        "nbr_rooms": "2 ",
+        "postal_code": "00990",
+        "price": 1007,
+        "size": 45.5
+    },
+    {
+        "address": "Castreninkatu 9-11",
+        "latitude": 60.185087,
+        "longitude": 24.947217,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1198,
+        "size": 55.5
+    },
+    {
+        "address": "Retkeilijänkatu 1",
+        "latitude": 60.206094,
+        "longitude": 25.119964,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 968,
+        "size": 43
+    },
+    {
+        "address": "Saariniemenkatu 6",
+        "latitude": 60.178275,
+        "longitude": 24.94687,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1460,
+        "size": 51
+    },
+    {
+        "address": "Plazankuja 5",
+        "latitude": 60.191364,
+        "longitude": 24.967895,
+        "nbr_rooms": "2",
+        "postal_code": "00580",
+        "price": 1187,
+        "size": 45
+    },
+    {
+        "address": "Karavaanikuja 2",
+        "latitude": 60.20658,
+        "longitude": 25.11922,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 983,
+        "size": 47
+    },
+    {
+        "address": "Abraham Wetterin tie 10 D 58",
+        "latitude": 60.19333,
+        "longitude": 25.0447,
+        "nbr_rooms": "2",
+        "postal_code": "00880",
+        "price": 826.68,
+        "size": 41
+    },
+    {
+        "address": "Yliskyläntie 7 C",
+        "latitude": 60.181115,
+        "longitude": 25.05421,
+        "nbr_rooms": "2",
+        "postal_code": "00840",
+        "price": 800,
+        "size": 52
+    },
+    {
+        "address": "Kastelholmantie 1",
+        "latitude": 60.21464,
+        "longitude": 25.081744,
+        "nbr_rooms": "3",
+        "postal_code": "00900",
+        "price": 950,
+        "size": 76
+    },
+    {
+        "address": "Haahkapolku 3",
+        "latitude": 60.155762,
+        "longitude": 24.877745,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 1090,
+        "size": 55
+    },
+    {
+        "address": "Haahkapolku 3",
+        "latitude": 60.155762,
+        "longitude": 24.877745,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 1290,
+        "size": 59
+    },
+    {
+        "address": "Svanströminkuja 7",
+        "latitude": 60.165347,
+        "longitude": 25.047183,
+        "nbr_rooms": "2 ",
+        "postal_code": "00870",
+        "price": 912.67,
+        "size": 58
+    },
+    {
+        "address": "Kanneltie 6",
+        "latitude": 60.240508,
+        "longitude": 24.879978,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 880,
+        "size": 56
+    },
+    {
+        "address": "Opastinsilta 1",
+        "latitude": 60.199851,
+        "longitude": 24.942784,
+        "nbr_rooms": "2",
+        "postal_code": "00520",
+        "price": 1058,
+        "size": 62
+    },
+    {
+        "address": "Punahilkantie 14 H",
+        "latitude": 60.204227,
+        "longitude": 25.06256,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 745,
+        "size": 39.5
+    },
+    {
+        "address": "Pallaksentie 1",
+        "latitude": 60.237649,
+        "longitude": 25.112948,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 1000,
+        "size": 63
+    },
+    {
+        "address": "Toini Muonan katu 3 a",
+        "latitude": 60.206654,
+        "longitude": 24.9793,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 970,
+        "size": 47
+    },
+    {
+        "address": "Castréninkatu 3",
+        "latitude": 60.184242,
+        "longitude": 24.945517,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1163,
+        "size": 50
+    },
+    {
+        "address": "Lupajantie 4",
+        "latitude": 60.232392,
+        "longitude": 25.103755,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 877,
+        "size": 45
+    },
+    {
+        "address": "Jussaarenkuja 4 C",
+        "latitude": 60.177278,
+        "longitude": 25.04667,
+        "nbr_rooms": "3",
+        "postal_code": "00840",
+        "price": 1000,
+        "size": 61
+    },
+    {
+        "address": "Johanneksentie 8 C",
+        "latitude": 60.161335,
+        "longitude": 24.943006,
+        "nbr_rooms": "2",
+        "postal_code": "00120",
+        "price": 920,
+        "size": 45.7
+    },
+    {
+        "address": "Temperankatu 4 B",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 760,
+        "size": 35.5
+    },
+    {
+        "address": "Temperankatu 4 B",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "3",
+        "postal_code": "00430",
+        "price": 1140,
+        "size": 69.5
+    },
+    {
+        "address": "Temperankatu 4 B",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 865,
+        "size": 44
+    },
+    {
+        "address": "Temperankatu 4 C",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 870,
+        "size": 44
+    },
+    {
+        "address": "Temperankatu 4 D",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "3",
+        "postal_code": "00430",
+        "price": 1135,
+        "size": 69.5
+    },
+    {
+        "address": "Temperankatu 4 C",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "3",
+        "postal_code": "00430",
+        "price": 1130,
+        "size": 69.5
+    },
+    {
+        "address": "Temperankatu 4 D",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 870,
+        "size": 44.5
+    },
+    {
+        "address": "Temperankatu 4 C",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 870,
+        "size": 44.5
+    },
+    {
+        "address": "Temperankatu 4 D",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "3",
+        "postal_code": "00430",
+        "price": 1200,
+        "size": 74.5
+    },
+    {
+        "address": "Taidemaalarinkatu 5 C",
+        "latitude": 60.261937,
+        "longitude": 24.89141,
+        "nbr_rooms": "3",
+        "postal_code": "00430",
+        "price": 1084,
+        "size": 69
+    },
+    {
+        "address": "Kylväjäntie 12",
+        "latitude": 60.232363,
+        "longitude": 24.845501,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1575,
+        "size": 85
+    },
+    {
+        "address": "Liusketie 20",
+        "latitude": 60.237016,
+        "longitude": 25.01859,
+        "nbr_rooms": "3",
+        "postal_code": "00710",
+        "price": 1079.68,
+        "size": 69.5
+    },
+    {
+        "address": "Pasuunakuja 1",
+        "latitude": 60.241829,
+        "longitude": 24.872015,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 845.82,
+        "size": 60.5
+    },
+    {
+        "address": "Hietalahdenkatu 12",
+        "latitude": 60.163791,
+        "longitude": 24.927215,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1080,
+        "size": 41
+    },
+    {
+        "address": "Temperankatu 4 D",
+        "latitude": 60.25851,
+        "longitude": 24.890778,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 765,
+        "size": 35.5
+    },
+    {
+        "address": "Reppukatu 14 B 15",
+        "latitude": 60.259107,
+        "longitude": 25.067483,
+        "nbr_rooms": "2",
+        "postal_code": "00770",
+        "price": 1260,
+        "size": 69
+    },
+    {
+        "address": "Naavapolku 4",
+        "latitude": 60.253996,
+        "longitude": 24.848614,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1048.77,
+        "size": 73
+    },
+    {
+        "address": "Linnanpellonkuja 13",
+        "latitude": 60.230208,
+        "longitude": 25.10227,
+        "nbr_rooms": "2",
+        "postal_code": "00950",
+        "price": 959,
+        "size": 54.5
+    },
+    {
+        "address": "Pihkatie 5",
+        "latitude": 60.251847,
+        "longitude": 24.855382,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 998,
+        "size": 57.5
+    },
+    {
+        "address": "Keinulaudantie 4 ",
+        "latitude": 60.23334,
+        "longitude": 25.074997,
+        "nbr_rooms": "2",
+        "postal_code": "00940",
+        "price": 856.61,
+        "size": 60
+    },
+    {
+        "address": "Juustenintie 6 A",
+        "latitude": 60.244241,
+        "longitude": 24.86788,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 894,
+        "size": 41.5
+    },
+    {
+        "address": "Juustenintie 4 B",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 1035,
+        "size": 57.5
+    },
+    {
+        "address": "Juustenintie 4 A",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1234,
+        "size": 74.5
+    },
+    {
+        "address": "Ostostie 2",
+        "latitude": 60.238349,
+        "longitude": 25.084729,
+        "nbr_rooms": "2 ",
+        "postal_code": "00940",
+        "price": 734.9,
+        "size": 49
+    },
+    {
+        "address": "Ostostie 2",
+        "latitude": 60.238349,
+        "longitude": 25.084729,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 994.75,
+        "size": 69
+    },
+    {
+        "address": "Ostostie  2 a",
+        "latitude": 60.238349,
+        "longitude": 25.084729,
+        "nbr_rooms": "2 ",
+        "postal_code": "00940",
+        "price": 810.9,
+        "size": 43
+    },
+    {
+        "address": "Rälssintie 7",
+        "latitude": 60.24119,
+        "longitude": 24.985786,
+        "nbr_rooms": "3",
+        "postal_code": "00720",
+        "price": 1047,
+        "size": 65
+    },
+    {
+        "address": "Tähtisaranpolku 3",
+        "latitude": 60.231034,
+        "longitude": 25.057272,
+        "nbr_rooms": "2",
+        "postal_code": "00940",
+        "price": 1000,
+        "size": 53
+    },
+    {
+        "address": "Kylätie 11-13 B",
+        "latitude": 60.214608,
+        "longitude": 24.895475,
+        "nbr_rooms": "2",
+        "postal_code": "00320",
+        "price": 880,
+        "size": 44
+    },
+    {
+        "address": "Kruunuvuorenkatu 1 C",
+        "latitude": 60.167572,
+        "longitude": 24.962445,
+        "nbr_rooms": "2",
+        "postal_code": "00160",
+        "price": 1150,
+        "size": 46.5
+    },
+    {
+        "address": "Capellan puistotie 4",
+        "latitude": 60.183417,
+        "longitude": 24.98209,
+        "nbr_rooms": "2",
+        "postal_code": "00540",
+        "price": 1373,
+        "size": 48
+    },
+    {
+        "address": "Klaavuntie 8-10",
+        "latitude": 60.210754,
+        "longitude": 25.097553,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 989,
+        "size": 56
+    },
+    {
+        "address": "Suezinkatu 3",
+        "latitude": 60.158365,
+        "longitude": 24.9203,
+        "nbr_rooms": "2",
+        "postal_code": "00220",
+        "price": 1120,
+        "size": 51.5
+    },
+    {
+        "address": "Osmontie 45",
+        "latitude": 60.219805,
+        "longitude": 24.947703,
+        "nbr_rooms": "2",
+        "postal_code": "00610",
+        "price": 1141,
+        "size": 54.5
+    },
+    {
+        "address": "Niinimäentie 1 as",
+        "latitude": 60.250293,
+        "longitude": 25.022737,
+        "nbr_rooms": "2",
+        "postal_code": "00700",
+        "price": 995,
+        "size": 67
+    },
+    {
+        "address": "Koskustie 4",
+        "latitude": 60.253148,
+        "longitude": 24.85539,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 862.3,
+        "size": 59
+    },
+    {
+        "address": "Tilketori 4",
+        "latitude": 60.202537,
+        "longitude": 24.893735,
+        "nbr_rooms": "3",
+        "postal_code": "00700",
+        "price": 1325,
+        "size": 76
+    },
+    {
+        "address": "Ansaritie 3",
+        "latitude": 60.209408,
+        "longitude": 24.886197,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1099,
+        "size": 53
+    },
+    {
+        "address": "Muinaisrannantie 3",
+        "latitude": 60.230708,
+        "longitude": 25.058284,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 1350,
+        "size": 83
+    },
+    {
+        "address": "Neljäs linja 16",
+        "latitude": 60.18311,
+        "longitude": 24.950045,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 950,
+        "size": 41.5
+    },
+    {
+        "address": "Vähäntuvantie 1",
+        "latitude": 60.233128,
+        "longitude": 24.848164,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1149,
+        "size": 64
+    },
+    {
+        "address": "Vanhaistentie 1a A",
+        "latitude": 60.241109,
+        "longitude": 24.885015,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 920,
+        "size": 45
+    },
+    {
+        "address": "Huopalahdentie 10 A",
+        "latitude": 60.198856,
+        "longitude": 24.883189,
+        "nbr_rooms": "3",
+        "postal_code": "00330",
+        "price": 1550,
+        "size": 82.5
+    },
+    {
+        "address": "Kyytimiehenkatu 1 D",
+        "latitude": 60.262046,
+        "longitude": 25.06881,
+        "nbr_rooms": "2",
+        "postal_code": "00770",
+        "price": 890,
+        "size": 45
+    },
+    {
+        "address": "Nahkahousuntie 6 A",
+        "latitude": 60.15033,
+        "longitude": 24.88017,
+        "nbr_rooms": "2 ",
+        "postal_code": "00210",
+        "price": 1050,
+        "size": 61
+    },
+    {
+        "address": "Perhekunnantie 24",
+        "latitude": 60.252888,
+        "longitude": 24.89714,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 970.16,
+        "size": 61
+    },
+    {
+        "address": "Perhekunnantie 24",
+        "latitude": 60.252888,
+        "longitude": 24.89714,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 970.16,
+        "size": 61
+    },
+    {
+        "address": "Meripellontie 12 B",
+        "latitude": 60.208227,
+        "longitude": 25.10407,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 1018,
+        "size": 47.5
+    },
+    {
+        "address": "Lönnrotinkatu 9 D",
+        "latitude": 60.166261,
+        "longitude": 24.937361,
+        "nbr_rooms": "2",
+        "postal_code": "00120",
+        "price": 1400,
+        "size": 59
+    },
+    {
+        "address": "Snellmaninkatu 23",
+        "latitude": 60.173653,
+        "longitude": 24.95311,
+        "nbr_rooms": "2",
+        "postal_code": "00170",
+        "price": 1453,
+        "size": 52
+    },
+    {
+        "address": "Matruusinkatu 2",
+        "latitude": 60.166502,
+        "longitude": 24.97544,
+        "nbr_rooms": "3",
+        "postal_code": "00160",
+        "price": 1599,
+        "size": 68.5
+    },
+    {
+        "address": "Urheilukatu 9 D 70",
+        "latitude": 60.190308,
+        "longitude": 24.918535,
+        "nbr_rooms": "2",
+        "postal_code": "00250",
+        "price": 1137,
+        "size": 50
+    },
+    {
+        "address": "Vuorimiehenkatu 33 A",
+        "latitude": 60.159398,
+        "longitude": 24.943702,
+        "nbr_rooms": "2 ",
+        "postal_code": "00140",
+        "price": 1300,
+        "size": 32
+    },
+    {
+        "address": "Sähköttäjänkatu 4",
+        "latitude": 60.197769,
+        "longitude": 24.939641,
+        "nbr_rooms": "2",
+        "postal_code": "00520",
+        "price": 378,
+        "size": 58
+    },
+    {
+        "address": "Runeberginkatu 46 B",
+        "latitude": 60.17962,
+        "longitude": 24.923565,
+        "nbr_rooms": "2",
+        "postal_code": "00260",
+        "price": 1350,
+        "size": 40.5
+    },
+    {
+        "address": "Ristiretkeläistenkatu 17",
+        "latitude": 60.227567,
+        "longitude": 24.988243,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 1130,
+        "size": 50
+    },
+    {
+        "address": "Jääkärinkatu 10a",
+        "latitude": 60.159954,
+        "longitude": 24.943036,
+        "nbr_rooms": "2 ",
+        "postal_code": "00150",
+        "price": 1350,
+        "size": 45
+    },
+    {
+        "address": "Hilapellontie 4",
+        "latitude": 60.240702,
+        "longitude": 24.83822,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 895,
+        "size": 43
+    },
+    {
+        "address": "Pukkilantie 2",
+        "latitude": 60.224306,
+        "longitude": 24.97082,
+        "nbr_rooms": "2",
+        "postal_code": "00650",
+        "price": 880,
+        "size": 48
+    },
+    {
+        "address": "Ida Aalbergin tie 3 a",
+        "latitude": 60.230519,
+        "longitude": 24.899078,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 1019,
+        "size": 53
+    },
+    {
+        "address": "Runeberginkatu 6b B",
+        "latitude": 60.17013,
+        "longitude": 24.926244,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 1250,
+        "size": 46.5
+    },
+    {
+        "address": "Uudenmaankatu 19-21",
+        "latitude": 60.164114,
+        "longitude": 24.939712,
+        "nbr_rooms": "2 ",
+        "postal_code": "00120",
+        "price": 1200,
+        "size": 59.5
+    },
+    {
+        "address": "Rantakartanontie 19",
+        "latitude": 60.215954,
+        "longitude": 25.097752,
+        "nbr_rooms": "3",
+        "postal_code": "00910",
+        "price": 1395,
+        "size": 75
+    },
+    {
+        "address": "Näyttelijäntie 22",
+        "latitude": 60.232806,
+        "longitude": 24.893574,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 1000,
+        "size": 50
+    },
+    {
+        "address": "Pohjoiskaari 9b B",
+        "latitude": 60.161226,
+        "longitude": 24.89213,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 1375,
+        "size": 58.5
+    },
+    {
+        "address": "Sörnäistenkatu 12",
+        "latitude": 60.191469,
+        "longitude": 24.970855,
+        "nbr_rooms": "2",
+        "postal_code": "00580",
+        "price": 1198,
+        "size": 39
+    },
+    {
+        "address": "Capellan puistotie 4",
+        "latitude": 60.183417,
+        "longitude": 24.98209,
+        "nbr_rooms": "2",
+        "postal_code": "00540",
+        "price": 1445,
+        "size": 54
+    },
+    {
+        "address": "Katariina Saksilaisen katu 11",
+        "latitude": 60.216287,
+        "longitude": 24.986552,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1215,
+        "size": 54
+    },
+    {
+        "address": "Pohjoisranta 16 D",
+        "latitude": 60.17269,
+        "longitude": 24.960754,
+        "nbr_rooms": "2",
+        "postal_code": "00170",
+        "price": 1250,
+        "size": 45.5
+    },
+    {
+        "address": "Malmi Omakotitaloalue",
+        "latitude": 60.264776,
+        "longitude": 24.887194,
+        "nbr_rooms": "2 ",
+        "postal_code": "00700",
+        "price": 1170,
+        "size": 70
+    },
+    {
+        "address": "Leikosaarentie 26",
+        "latitude": 60.204114,
+        "longitude": 25.146854,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 960,
+        "size": 52.5
+    },
+    {
+        "address": "Minna Canthin katu 7",
+        "latitude": 60.186182,
+        "longitude": 24.918959,
+        "nbr_rooms": "3",
+        "postal_code": "00250",
+        "price": 1550,
+        "size": 71
+    },
+    {
+        "address": "Tilketori 4",
+        "latitude": 60.202537,
+        "longitude": 24.893735,
+        "nbr_rooms": "3",
+        "postal_code": "00700",
+        "price": 1262,
+        "size": 70
+    },
+    {
+        "address": "Pihkatie 5",
+        "latitude": 60.251847,
+        "longitude": 24.855382,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 998,
+        "size": 57.5
+    },
+    {
+        "address": "Lauttasaarentie 5a",
+        "latitude": 60.161691,
+        "longitude": 24.890176,
+        "nbr_rooms": "2 ",
+        "postal_code": "00200",
+        "price": 880,
+        "size": 43
+    },
+    {
+        "address": "Punahilkantie 6",
+        "latitude": 60.204336,
+        "longitude": 25.06056,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 938,
+        "size": 62
+    },
+    {
+        "address": "Aurinkotuulenkatu 5 A",
+        "latitude": 60.207335,
+        "longitude": 25.157976,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 900,
+        "size": 59.5
+    },
+    {
+        "address": "Tapulikaupungintie 13",
+        "latitude": 60.275474,
+        "longitude": 25.035829,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 908,
+        "size": 43.5
+    },
+    {
+        "address": "Tulisuontie 1",
+        "latitude": 60.201944,
+        "longitude": 25.059914,
+        "nbr_rooms": "3",
+        "postal_code": "00820",
+        "price": 1262,
+        "size": 67.5
+    },
+    {
+        "address": "Kahvipavunkuja 4",
+        "latitude": 60.20545,
+        "longitude": 25.150576,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1343,
+        "size": 64
+    },
+    {
+        "address": "Vaakatie 3",
+        "latitude": 60.229288,
+        "longitude": 24.877633,
+        "nbr_rooms": "2",
+        "postal_code": "00440",
+        "price": 1097,
+        "size": 55
+    },
+    {
+        "address": "Väinö Auerinkatu 10",
+        "latitude": 60.220496,
+        "longitude": 24.989969,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 868,
+        "size": 45
+    },
+    {
+        "address": "Ristipellontie 6",
+        "latitude": 60.238335,
+        "longitude": 24.852082,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 1006,
+        "size": 53.5
+    },
+    {
+        "address": "Vähäntuvantie 1",
+        "latitude": 60.235021,
+        "longitude": 24.853551,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1093,
+        "size": 56.5
+    },
+    {
+        "address": "Lontoonkatu 9",
+        "latitude": 60.203337,
+        "longitude": 24.9738,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1249,
+        "size": 48.5
+    },
+    {
+        "address": "Kolmas linja 14",
+        "latitude": 60.182793,
+        "longitude": 24.948194,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1049,
+        "size": 38
+    },
+    {
+        "address": "Alppikatu 5",
+        "latitude": 60.185031,
+        "longitude": 24.941828,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 900,
+        "size": 37
+    },
+    {
+        "address": "Vähäntuvantie 1",
+        "latitude": 60.235021,
+        "longitude": 24.853551,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1241,
+        "size": 71.5
+    },
+    {
+        "address": "Vähäntuvantie 1",
+        "latitude": 60.235133,
+        "longitude": 24.853616,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 1020,
+        "size": 52
+    },
+    {
+        "address": "Vaakamestarinpolku 2",
+        "latitude": 60.276816,
+        "longitude": 25.022136,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 920,
+        "size": 59
+    },
+    {
+        "address": "Tulisuontie 5",
+        "latitude": 60.201987,
+        "longitude": 25.0625,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 769.58,
+        "size": 45.5
+    },
+    {
+        "address": "Matruusinkatu 2",
+        "latitude": 60.166502,
+        "longitude": 24.97544,
+        "nbr_rooms": "2",
+        "postal_code": "00160",
+        "price": 1249,
+        "size": 54.5
+    },
+    {
+        "address": "Yliskyläntie 2 A",
+        "latitude": 60.180809,
+        "longitude": 25.051385,
+        "nbr_rooms": "3",
+        "postal_code": "00840",
+        "price": 1209,
+        "size": 75.5
+    },
+    {
+        "address": "PITÄJÄNMÄENTIE 35 C",
+        "latitude": 60.224767,
+        "longitude": 24.85011,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 953,
+        "size": 60.5
+    },
+    {
+        "address": "Leikosaarentie 11",
+        "latitude": 60.202931,
+        "longitude": 25.139549,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 999,
+        "size": 46.5
+    },
+    {
+        "address": "Ajomiehentie 20",
+        "latitude": 60.238627,
+        "longitude": 24.847523,
+        "nbr_rooms": "2 ",
+        "postal_code": "00390",
+        "price": 733,
+        "size": 39
+    },
+    {
+        "address": "Ajomiehentie 20",
+        "latitude": 60.238657,
+        "longitude": 24.847298,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1099,
+        "size": 62
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.208245,
+        "longitude": 25.158093,
+        "nbr_rooms": "3 ",
+        "postal_code": "00990",
+        "price": 1195,
+        "size": 67.5
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.206517,
+        "longitude": 25.157927,
+        "nbr_rooms": "2 ",
+        "postal_code": "00990",
+        "price": 900,
+        "size": 39.5
+    },
+    {
+        "address": "Taidemaalarinkatu 10",
+        "latitude": 60.262196,
+        "longitude": 24.891166,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 935,
+        "size": 54
+    },
+    {
+        "address": "Pertunpellontie 8",
+        "latitude": 60.267241,
+        "longitude": 24.99073,
+        "nbr_rooms": "3",
+        "postal_code": "00740",
+        "price": 1200,
+        "size": 68.5
+    },
+    {
+        "address": "Katariina Saksilaisen katu 11",
+        "latitude": 60.216287,
+        "longitude": 24.986552,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1277,
+        "size": 59
+    },
+    {
+        "address": "Kahvipavunkuja 4",
+        "latitude": 60.20545,
+        "longitude": 25.150576,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 1105,
+        "size": 52.5
+    },
+    {
+        "address": "Kahvipavunkuja 4",
+        "latitude": 60.20545,
+        "longitude": 25.150576,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1299,
+        "size": 64
+    },
+    {
+        "address": "Retkeilijänkatu 1",
+        "latitude": 60.206094,
+        "longitude": 25.119964,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 965,
+        "size": 42.5
+    },
+    {
+        "address": "Maasälväntie 5-9",
+        "latitude": 60.235713,
+        "longitude": 25.010615,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 925,
+        "size": 48.5
+    },
+    {
+        "address": "Laakavuorentie 11",
+        "latitude": 60.239843,
+        "longitude": 25.113925,
+        "nbr_rooms": "3",
+        "postal_code": "00970",
+        "price": 1150,
+        "size": 80
+    },
+    {
+        "address": "PITÄJÄNMÄENTIE 35 K",
+        "latitude": 60.224939,
+        "longitude": 24.852562,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 932,
+        "size": 57.5
+    },
+    {
+        "address": "Karhulantie 13",
+        "latitude": 60.217817,
+        "longitude": 25.10374,
+        "nbr_rooms": "3",
+        "postal_code": "00950",
+        "price": 1322,
+        "size": 70.5
+    },
+    {
+        "address": "Arhotie 22",
+        "latitude": 60.218443,
+        "longitude": 25.086228,
+        "nbr_rooms": "2",
+        "postal_code": "00900",
+        "price": 1039,
+        "size": 56.2
+    },
+    {
+        "address": "Koirasaarentie 23",
+        "latitude": 60.171648,
+        "longitude": 25.031925,
+        "nbr_rooms": "3",
+        "postal_code": "00590",
+        "price": 1346,
+        "size": 72.5
+    },
+    {
+        "address": "Niittaajankatu 9 B 50",
+        "latitude": 60.191537,
+        "longitude": 25.029634,
+        "nbr_rooms": "3 ",
+        "postal_code": "00810",
+        "price": 1315.9,
+        "size": 68.5
+    },
+    {
+        "address": "Agronominkatu 1",
+        "latitude": 60.23448,
+        "longitude": 25.03392,
+        "nbr_rooms": "3",
+        "postal_code": "00790",
+        "price": 1126.04,
+        "size": 64.5
+    },
+    {
+        "address": "Lupajantie 2",
+        "latitude": 60.233264,
+        "longitude": 25.10464,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 929,
+        "size": 45
+    },
+    {
+        "address": "Roihuvuorentie 18 C 79",
+        "latitude": 60.199501,
+        "longitude": 25.057332,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 790,
+        "size": 52
+    },
+    {
+        "address": "Asteritie 6 C",
+        "latitude": 60.246408,
+        "longitude": 24.998434,
+        "nbr_rooms": "2",
+        "postal_code": "00720",
+        "price": 820,
+        "size": 46
+    },
+    {
+        "address": "Kadetintie 6",
+        "latitude": 60.19549,
+        "longitude": 24.878805,
+        "nbr_rooms": "2",
+        "postal_code": "00330",
+        "price": 1400,
+        "size": 54.4
+    },
+    {
+        "address": "Sofianlehdonkatu 5a B 34",
+        "latitude": 60.205059,
+        "longitude": 24.949626,
+        "nbr_rooms": "2 ",
+        "postal_code": "00610",
+        "price": 949.44,
+        "size": 45.5
+    },
+    {
+        "address": "Sofianlehdonkatu 5a B 49",
+        "latitude": 60.205059,
+        "longitude": 24.949626,
+        "nbr_rooms": "2 ",
+        "postal_code": "00610",
+        "price": 975.62,
+        "size": 45.5
+    },
+    {
+        "address": "Juhannustie 25",
+        "latitude": 60.287194,
+        "longitude": 25.016376,
+        "nbr_rooms": "3",
+        "postal_code": "00750",
+        "price": 1275,
+        "size": 79.5
+    },
+    {
+        "address": "Laakavuorentie 11",
+        "latitude": 60.239843,
+        "longitude": 25.113925,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 785,
+        "size": 42.5
+    },
+    {
+        "address": "Kauppakartanonkatu 17",
+        "latitude": 60.20656,
+        "longitude": 25.077155,
+        "nbr_rooms": "2",
+        "postal_code": "00930",
+        "price": 989,
+        "size": 58.5
+    },
+    {
+        "address": "HENRIKINTIE 5 B",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 986,
+        "size": 57.5
+    },
+    {
+        "address": "Tulisuontie 5",
+        "latitude": 60.201987,
+        "longitude": 25.0625,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 891.15,
+        "size": 60.5
+    },
+    {
+        "address": "KOKKOKALLIONTIE 1 A",
+        "latitude": 60.228773,
+        "longitude": 24.85033,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 955,
+        "size": 54.5
+    },
+    {
+        "address": "Ränkitie 3",
+        "latitude": 60.284655,
+        "longitude": 25.038837,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 993.14,
+        "size": 60
+    },
+    {
+        "address": "Ansaritie 1a",
+        "latitude": 60.208495,
+        "longitude": 24.886379,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1049,
+        "size": 53
+    },
+    {
+        "address": "Eerikinkatu 1 D",
+        "latitude": 60.161609,
+        "longitude": 24.88108,
+        "nbr_rooms": "1 ",
+        "postal_code": "00100",
+        "price": 990,
+        "size": 36.5
+    },
+    {
+        "address": "Kutomotie 12a",
+        "latitude": 60.214557,
+        "longitude": 24.871515,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 1199,
+        "size": 50.5
+    },
+    {
+        "address": "Tilkankatu 2",
+        "latitude": 60.203601,
+        "longitude": 24.895593,
+        "nbr_rooms": "2",
+        "postal_code": "00300",
+        "price": 1179,
+        "size": 61
+    },
+    {
+        "address": "Leikosaarentie 31",
+        "latitude": 60.204815,
+        "longitude": 25.153598,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 1049,
+        "size": 47.5
+    },
+    {
+        "address": "Lintulahdenaukio 8",
+        "latitude": 60.184787,
+        "longitude": 24.962533,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 1189,
+        "size": 50.5
+    },
+    {
+        "address": "Pakilantie 17",
+        "latitude": 60.233178,
+        "longitude": 24.932146,
+        "nbr_rooms": "2",
+        "postal_code": "00630",
+        "price": 1089,
+        "size": 50.5
+    },
+    {
+        "address": "Kotkankatu 9",
+        "latitude": 60.19215,
+        "longitude": 24.94315,
+        "nbr_rooms": "2",
+        "postal_code": "00510",
+        "price": 1095,
+        "size": 35
+    },
+    {
+        "address": "Pertunpellontie 6",
+        "latitude": 60.26724,
+        "longitude": 24.991307,
+        "nbr_rooms": "3",
+        "postal_code": "00740",
+        "price": 1199,
+        "size": 64.5
+    },
+    {
+        "address": "Hilapellontie 4",
+        "latitude": 60.240702,
+        "longitude": 24.83822,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1002,
+        "size": 55
+    },
+    {
+        "address": "Maasälväntie 5-9",
+        "latitude": 60.235713,
+        "longitude": 25.010615,
+        "nbr_rooms": "3",
+        "postal_code": "00710",
+        "price": 1135,
+        "size": 67
+    },
+    {
+        "address": "Kaivonkatsojantie 8 B 33",
+        "latitude": 60.205109,
+        "longitude": 25.136058,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1081.06,
+        "size": 73
+    },
+    {
+        "address": "Lupajantie 6",
+        "latitude": 60.232,
+        "longitude": 25.10349,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 894,
+        "size": 45
+    },
+    {
+        "address": "Leikkikuja 2b",
+        "latitude": 60.242127,
+        "longitude": 25.08472,
+        "nbr_rooms": "2",
+        "postal_code": "00940",
+        "price": 949,
+        "size": 47.5
+    },
+    {
+        "address": "Castréninkatu 3",
+        "latitude": 60.184242,
+        "longitude": 24.945517,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1150,
+        "size": 50.5
+    },
+    {
+        "address": "Pihkatie 5",
+        "latitude": 60.251847,
+        "longitude": 24.855382,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 995,
+        "size": 56
+    },
+    {
+        "address": "Pasuunatie 4 b B",
+        "latitude": 60.241298,
+        "longitude": 24.871115,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 936,
+        "size": 41
+    },
+    {
+        "address": "Agronominkatu 1",
+        "latitude": 60.23448,
+        "longitude": 25.03392,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 970.47,
+        "size": 52
+    },
+    {
+        "address": "Pasuunakuja 1",
+        "latitude": 60.241829,
+        "longitude": 24.872015,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 845.82,
+        "size": 60.5
+    },
+    {
+        "address": "Palikkapolku 1",
+        "latitude": 60.237649,
+        "longitude": 24.875928,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 945,
+        "size": 56
+    },
+    {
+        "address": "Annankatu 8 B 37",
+        "latitude": 60.16375,
+        "longitude": 24.94051,
+        "nbr_rooms": "2",
+        "postal_code": "00120",
+        "price": 1240,
+        "size": 52
+    },
+    {
+        "address": "Kokkokalliontie 5 R",
+        "latitude": 60.229509,
+        "longitude": 24.851668,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 886,
+        "size": 41
+    },
+    {
+        "address": "Lintulahdenaukio 8",
+        "latitude": 60.184787,
+        "longitude": 24.962533,
+        "nbr_rooms": "3",
+        "postal_code": "00500",
+        "price": 1599,
+        "size": 75
+    },
+    {
+        "address": "Erkki Melartinin tie 1",
+        "latitude": 60.246161,
+        "longitude": 24.988777,
+        "nbr_rooms": "2",
+        "postal_code": "00720",
+        "price": 999,
+        "size": 60
+    },
+    {
+        "address": "Kotisaarenkatu 10",
+        "latitude": 60.202099,
+        "longitude": 24.971905,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1399,
+        "size": 52.5
+    },
+    {
+        "address": "Kotisaarenkatu 10",
+        "latitude": 60.202099,
+        "longitude": 24.971905,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1285,
+        "size": 52.5
+    },
+    {
+        "address": "Isonvillasaarentie 12 G",
+        "latitude": 60.22011,
+        "longitude": 25.14229,
+        "nbr_rooms": "2",
+        "postal_code": "00960",
+        "price": 850,
+        "size": 55.5
+    },
+    {
+        "address": "Kotikonnuntie 8 A",
+        "latitude": 60.240375,
+        "longitude": 25.08608,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 1075,
+        "size": 64
+    },
+    {
+        "address": "Meri-Rastilan tie 15",
+        "latitude": 60.200065,
+        "longitude": 25.119568,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1159,
+        "size": 71.5
+    },
+    {
+        "address": "Kivisaarentie 2",
+        "latitude": 60.220082,
+        "longitude": 25.140001,
+        "nbr_rooms": "2",
+        "postal_code": "00960",
+        "price": 949,
+        "size": 53.5
+    },
+    {
+        "address": "Vanha viertotie 16",
+        "latitude": 60.210368,
+        "longitude": 24.884094,
+        "nbr_rooms": "3",
+        "postal_code": "00350",
+        "price": 1349,
+        "size": 72.5
+    },
+    {
+        "address": "Klaavuntie 8-10",
+        "latitude": 60.210754,
+        "longitude": 25.097553,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 949,
+        "size": 47
+    },
+    {
+        "address": "Kutomotie 10a",
+        "latitude": 60.215383,
+        "longitude": 24.870535,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 1099,
+        "size": 48
+    },
+    {
+        "address": "Kaj Franckin katu 1",
+        "latitude": 60.208022,
+        "longitude": 24.981279,
+        "nbr_rooms": "2",
+        "postal_code": "00560",
+        "price": 1149,
+        "size": 45
+    },
+    {
+        "address": "Klaavuntie 8-10",
+        "latitude": 60.210754,
+        "longitude": 25.097553,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 979,
+        "size": 56
+    },
+    {
+        "address": "Lintulahdenaukio 8",
+        "latitude": 60.184787,
+        "longitude": 24.962533,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 1199,
+        "size": 55.5
+    },
+    {
+        "address": "Vetelintie 5",
+        "latitude": 60.237149,
+        "longitude": 24.884436,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 995,
+        "size": 60.5
+    },
+    {
+        "address": "Trumpettikuja 4",
+        "latitude": 60.238491,
+        "longitude": 24.86843,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 1022,
+        "size": 70.5
+    },
+    {
+        "address": "Risupadontie 6",
+        "latitude": 60.232165,
+        "longitude": 24.946873,
+        "nbr_rooms": "3",
+        "postal_code": "00640",
+        "price": 1280,
+        "size": 81.5
+    },
+    {
+        "address": "Konalantie 14",
+        "latitude": 60.22766,
+        "longitude": 24.85139,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 998,
+        "size": 59
+    },
+    {
+        "address": "Tukholmankatu 19 A",
+        "latitude": 60.191723,
+        "longitude": 24.903509,
+        "nbr_rooms": "2 ",
+        "postal_code": "00270",
+        "price": 1150,
+        "size": 42
+    },
+    {
+        "address": "Iiluodontie 7",
+        "latitude": 60.205717,
+        "longitude": 25.145255,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 1098,
+        "size": 47.5
+    },
+    {
+        "address": "Ansaritie 2-4",
+        "latitude": 60.208489,
+        "longitude": 24.886269,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1089,
+        "size": 53
+    },
+    {
+        "address": "Lupajantie 2",
+        "latitude": 60.233264,
+        "longitude": 25.10464,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 919,
+        "size": 45.5
+    },
+    {
+        "address": "Vetelintie 5",
+        "latitude": 60.237149,
+        "longitude": 24.884436,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 985,
+        "size": 60
+    },
+    {
+        "address": "HENRIKINTIE 5 E",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1162,
+        "size": 73.5
+    },
+    {
+        "address": "Aurinkotuulenkatu 4 B",
+        "latitude": 60.207405,
+        "longitude": 25.158737,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1350,
+        "size": 75
+    },
+    {
+        "address": "Abrahaminkatu 11",
+        "latitude": 60.164491,
+        "longitude": 24.929307,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1200,
+        "size": 62.5
+    },
+    {
+        "address": "Näyttelijäntie 24",
+        "latitude": 60.231837,
+        "longitude": 24.890646,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 969,
+        "size": 50
+    },
+    {
+        "address": "Otto Brandtin tie 16",
+        "latitude": 60.232698,
+        "longitude": 24.978409,
+        "nbr_rooms": "2",
+        "postal_code": "00650",
+        "price": 939,
+        "size": 53
+    },
+    {
+        "address": "Iiluodontie 7 A",
+        "latitude": 60.205419,
+        "longitude": 25.1454,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 895,
+        "size": 47.5
+    },
+    {
+        "address": "Kahvipavunkuja 6 A",
+        "latitude": 60.205361,
+        "longitude": 25.149604,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1198,
+        "size": 67.5
+    },
+    {
+        "address": "Viulutie 3",
+        "latitude": 60.236879,
+        "longitude": 24.879507,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 1199,
+        "size": 74.5
+    },
+    {
+        "address": "Juustenintie 6 A",
+        "latitude": 60.244241,
+        "longitude": 24.86788,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 875,
+        "size": 41.5
+    },
+    {
+        "address": "Taidemaalarinkatu 5 B",
+        "latitude": 60.261937,
+        "longitude": 24.89141,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 855,
+        "size": 46
+    },
+    {
+        "address": "Juustenintie 6 A",
+        "latitude": 60.244241,
+        "longitude": 24.86788,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 967,
+        "size": 53.5
+    },
+    {
+        "address": "Pohjavedenkatu 6",
+        "latitude": 60.205673,
+        "longitude": 25.137933,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 1049,
+        "size": 53
+    },
+    {
+        "address": "Eläinlääkärinkatu 3 A",
+        "latitude": 60.192167,
+        "longitude": 24.96766,
+        "nbr_rooms": "3",
+        "postal_code": "00580",
+        "price": 1375,
+        "size": 76.5
+    },
+    {
+        "address": "Perhekunnantie 24",
+        "latitude": 60.252888,
+        "longitude": 24.89714,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 944.92,
+        "size": 60
+    },
+    {
+        "address": "Toinen linja 31",
+        "latitude": 60.18406,
+        "longitude": 24.942157,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1149,
+        "size": 54
+    },
+    {
+        "address": "Kasarmikatu 10",
+        "latitude": 60.161015,
+        "longitude": 24.948288,
+        "nbr_rooms": "2",
+        "postal_code": "00140",
+        "price": 1349,
+        "size": 42
+    },
+    {
+        "address": "Tehtaankatu 22 F ",
+        "latitude": 60.158008,
+        "longitude": 24.946149,
+        "nbr_rooms": "2",
+        "postal_code": "00140",
+        "price": 1570,
+        "size": 58
+    },
+    {
+        "address": "Ruoholahdenranta 1 D",
+        "latitude": 60.16149,
+        "longitude": 24.92504,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1200,
+        "size": 43.5
+    },
+    {
+        "address": "Juustenintie 6 A",
+        "latitude": 60.244241,
+        "longitude": 24.86788,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1195,
+        "size": 71.5
+    },
+    {
+        "address": "Sorvaajankatu 1 C 50",
+        "latitude": 60.192918,
+        "longitude": 25.04276,
+        "nbr_rooms": "2",
+        "postal_code": "00880",
+        "price": 1155.75,
+        "size": 57.5
+    },
+    {
+        "address": "Kiillekuja 4",
+        "latitude": 60.232626,
+        "longitude": 25.006155,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 925,
+        "size": 60
+    },
+    {
+        "address": "Itämerenkatu 30 A 8",
+        "latitude": 60.162842,
+        "longitude": 24.906392,
+        "nbr_rooms": "2",
+        "postal_code": "00180",
+        "price": 1283.46,
+        "size": 64
+    },
+    {
+        "address": "Kutomotie 8a",
+        "latitude": 60.214485,
+        "longitude": 24.871622,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 1149,
+        "size": 48
+    },
+    {
+        "address": "Pihkatie 5",
+        "latitude": 60.251847,
+        "longitude": 24.855382,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 995,
+        "size": 58.5
+    },
+    {
+        "address": "Kalevankatu 14 D",
+        "latitude": 60.166833,
+        "longitude": 24.936616,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 1055,
+        "size": 36
+    },
+    {
+        "address": "Trumpettitie 4",
+        "latitude": 60.238671,
+        "longitude": 24.870703,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 900,
+        "size": 63.5
+    },
+    {
+        "address": "Päästäisenkuja 1",
+        "latitude": 60.267056,
+        "longitude": 24.981705,
+        "nbr_rooms": "2",
+        "postal_code": "00740",
+        "price": 920,
+        "size": 52.5
+    },
+    {
+        "address": "Ristipellontie 6",
+        "latitude": 60.238335,
+        "longitude": 24.852082,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1260,
+        "size": 74
+    },
+    {
+        "address": "Vanhaistentie 4 C",
+        "latitude": 60.242893,
+        "longitude": 24.885283,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 890,
+        "size": 55.3
+    },
+    {
+        "address": "Agronominraitti 2",
+        "latitude": 60.233926,
+        "longitude": 25.0358,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 999,
+        "size": 58.5
+    },
+    {
+        "address": "TUHKIMONTIE 3-5 H",
+        "latitude": 60.196548,
+        "longitude": 25.050961,
+        "nbr_rooms": "3",
+        "postal_code": "00820",
+        "price": 1035,
+        "size": 61
+    },
+    {
+        "address": "Lintulahdenaukio 8",
+        "latitude": 60.184787,
+        "longitude": 24.962533,
+        "nbr_rooms": "3",
+        "postal_code": "00500",
+        "price": 1599,
+        "size": 77
+    },
+    {
+        "address": "Karavaanikuja 2",
+        "latitude": 60.20658,
+        "longitude": 25.11922,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 1045,
+        "size": 53
+    },
+    {
+        "address": "Pakilantie 17",
+        "latitude": 60.233178,
+        "longitude": 24.932146,
+        "nbr_rooms": "2",
+        "postal_code": "00630",
+        "price": 1090,
+        "size": 51
+    },
+    {
+        "address": "Leirikuja 3",
+        "latitude": 60.25696,
+        "longitude": 24.844663,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 898,
+        "size": 44.5
+    },
+    {
+        "address": "Gunillantie 22 A",
+        "latitude": 60.1701,
+        "longitude": 25.032674,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 1217,
+        "size": 63
+    },
+    {
+        "address": "Graniittitie 13",
+        "latitude": 60.232618,
+        "longitude": 25.009046,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 1029,
+        "size": 66
+    },
+    {
+        "address": "Meri-Rastilan tie 40",
+        "latitude": 60.202063,
+        "longitude": 25.130793,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1149,
+        "size": 66.5
+    },
+    {
+        "address": "Gunillantie 22 B",
+        "latitude": 60.1701,
+        "longitude": 25.032674,
+        "nbr_rooms": "3",
+        "postal_code": "00870",
+        "price": 1317,
+        "size": 68.5
+    },
+    {
+        "address": "Vanhanlinnantie 10",
+        "latitude": 60.214324,
+        "longitude": 25.086628,
+        "nbr_rooms": "2",
+        "postal_code": "00900",
+        "price": 1069,
+        "size": 47
+    },
+    {
+        "address": "Rosalankuja 5",
+        "latitude": 60.17484,
+        "longitude": 25.030123,
+        "nbr_rooms": "2",
+        "postal_code": "00590",
+        "price": 890,
+        "size": 40
+    },
+    {
+        "address": "Tilkankatu 6",
+        "latitude": 60.203193,
+        "longitude": 24.894666,
+        "nbr_rooms": "2",
+        "postal_code": "00300",
+        "price": 1149,
+        "size": 56
+    },
+    {
+        "address": "Vanha viertotie 6",
+        "latitude": 60.209862,
+        "longitude": 24.887317,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1149,
+        "size": 51
+    },
+    {
+        "address": "HENRIKINTIE 5 C",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 995,
+        "size": 60
+    },
+    {
+        "address": "Von Daehnin katu 11",
+        "latitude": 60.230955,
+        "longitude": 25.04438,
+        "nbr_rooms": "3",
+        "postal_code": "00790",
+        "price": 1138.4,
+        "size": 67.5
+    },
+    {
+        "address": "Von Daehnin katu 21 B 27",
+        "latitude": 60.231136,
+        "longitude": 25.041012,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 940,
+        "size": 45.5
+    },
+    {
+        "address": "Kulmavuorenkatu 6",
+        "latitude": 60.18823,
+        "longitude": 24.965242,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 1299,
+        "size": 62
+    },
+    {
+        "address": "Kellosaarenkatu 7 D",
+        "latitude": 60.162311,
+        "longitude": 24.90982,
+        "nbr_rooms": "3",
+        "postal_code": "00180",
+        "price": 1495,
+        "size": 72.5
+    },
+    {
+        "address": "Fleminginkatu 7",
+        "latitude": 60.184869,
+        "longitude": 24.953453,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1280,
+        "size": 47
+    },
+    {
+        "address": "Hämeentie 8 C",
+        "latitude": 60.180886,
+        "longitude": 24.952505,
+        "nbr_rooms": "2",
+        "postal_code": "00530",
+        "price": 1250,
+        "size": 60
+    },
+    {
+        "address": "Kämnerintie 3",
+        "latitude": 60.277377,
+        "longitude": 25.02552,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 950,
+        "size": 63
+    },
+    {
+        "address": "Kalteentie 2",
+        "latitude": 60.264335,
+        "longitude": 25.084518,
+        "nbr_rooms": "2",
+        "postal_code": "00770",
+        "price": 949,
+        "size": 56
+    },
+    {
+        "address": "Von Daehnin katu 11",
+        "latitude": 60.230955,
+        "longitude": 25.04438,
+        "nbr_rooms": "3",
+        "postal_code": "00790",
+        "price": 1079.68,
+        "size": 67.5
+    },
+    {
+        "address": "Malminrinne 2-4",
+        "latitude": 60.166734,
+        "longitude": 24.930698,
+        "nbr_rooms": "2",
+        "postal_code": "00100",
+        "price": 990,
+        "size": 36
+    },
+    {
+        "address": "Korppaanmäentie 21",
+        "latitude": 60.20669,
+        "longitude": 24.891312,
+        "nbr_rooms": "2",
+        "postal_code": "00300",
+        "price": 1149,
+        "size": 61
+    },
+    {
+        "address": "Kutomotie 8a",
+        "latitude": 60.214485,
+        "longitude": 24.871622,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 1129,
+        "size": 43
+    },
+    {
+        "address": "Steniuksentie 39 A",
+        "latitude": 60.213571,
+        "longitude": 24.897301,
+        "nbr_rooms": "2",
+        "postal_code": "00320",
+        "price": 820,
+        "size": 36
+    },
+    {
+        "address": "Koirasaarenrinne 3 E",
+        "latitude": 60.175771,
+        "longitude": 25.045455,
+        "nbr_rooms": "3",
+        "postal_code": "00840",
+        "price": 990,
+        "size": 63
+    },
+    {
+        "address": "Jarrumiehenkatu 2",
+        "latitude": 60.201116,
+        "longitude": 24.940335,
+        "nbr_rooms": "2",
+        "postal_code": "00520",
+        "price": 1156,
+        "size": 61
+    },
+    {
+        "address": "Pakilantie 17",
+        "latitude": 60.231298,
+        "longitude": 24.934552,
+        "nbr_rooms": "2",
+        "postal_code": "00630",
+        "price": 1075,
+        "size": 44
+    },
+    {
+        "address": "Hellemäenpolku 10",
+        "latitude": 60.211404,
+        "longitude": 24.886278,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1030,
+        "size": 57.5
+    },
+    {
+        "address": "Linnankatu 3 A",
+        "latitude": 60.166384,
+        "longitude": 24.966805,
+        "nbr_rooms": "2",
+        "postal_code": "00160",
+        "price": 1595,
+        "size": 57
+    },
+    {
+        "address": "Hiihtomäentie 21",
+        "latitude": 60.197242,
+        "longitude": 25.032659,
+        "nbr_rooms": "2",
+        "postal_code": "00810",
+        "price": 960,
+        "size": 42
+    },
+    {
+        "address": "Fastbölentie 16",
+        "latitude": 60.279423,
+        "longitude": 25.042339,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 311,
+        "size": 38.5
+    },
+    {
+        "address": "Purpurikuja 4 C",
+        "latitude": 60.236243,
+        "longitude": 24.873165,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 990,
+        "size": 76
+    },
+    {
+        "address": "Vanha Yrttimaantie 22",
+        "latitude": 60.269191,
+        "longitude": 25.012675,
+        "nbr_rooms": "3",
+        "postal_code": "00730",
+        "price": 1234,
+        "size": 77.5
+    },
+    {
+        "address": "Hela-aukio 4",
+        "latitude": 60.255116,
+        "longitude": 25.15804,
+        "nbr_rooms": "2",
+        "postal_code": "00700",
+        "price": 970,
+        "size": 48.5
+    },
+    {
+        "address": "Agronominkatu 1",
+        "latitude": 60.23448,
+        "longitude": 25.03392,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 876.72,
+        "size": 52
+    },
+    {
+        "address": "Pohjavedenkatu 6",
+        "latitude": 60.205673,
+        "longitude": 25.137933,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 999,
+        "size": 41
+    },
+    {
+        "address": "Munkkisaarenkatu 4 B",
+        "latitude": 60.15747,
+        "longitude": 24.93275,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1000,
+        "size": 44
+    },
+    {
+        "address": "Gunillantie 22 A",
+        "latitude": 60.1701,
+        "longitude": 25.032674,
+        "nbr_rooms": "2",
+        "postal_code": "00870",
+        "price": 885,
+        "size": 41
+    },
+    {
+        "address": "Graniittitie 13",
+        "latitude": 60.232618,
+        "longitude": 25.009046,
+        "nbr_rooms": "3",
+        "postal_code": "00710",
+        "price": 1229,
+        "size": 80
+    },
+    {
+        "address": "Neulapadontie 10 F 49",
+        "latitude": 60.222974,
+        "longitude": 25.064411,
+        "nbr_rooms": "2",
+        "postal_code": "00920",
+        "price": 850,
+        "size": 44
+    },
+    {
+        "address": "Lehdesniityntie 3",
+        "latitude": 60.180704,
+        "longitude": 24.847571,
+        "nbr_rooms": "3 ",
+        "postal_code": "00340",
+        "price": 1250,
+        "size": 58
+    },
+    {
+        "address": "Kutomotie 14 B",
+        "latitude": 60.215508,
+        "longitude": 24.870573,
+        "nbr_rooms": "2",
+        "postal_code": "00380",
+        "price": 990,
+        "size": 42.5
+    },
+    {
+        "address": "Kallvikintie 61",
+        "latitude": 60.209106,
+        "longitude": 25.136144,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 1195,
+        "size": 71
+    },
+    {
+        "address": "Vanha viertotie 18",
+        "latitude": 60.210556,
+        "longitude": 24.882745,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 999,
+        "size": 48
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.206405,
+        "longitude": 25.158021,
+        "nbr_rooms": "3 ",
+        "postal_code": "00990",
+        "price": 1260,
+        "size": 65
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.206618,
+        "longitude": 25.158066,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 970,
+        "size": 49
+    },
+    {
+        "address": "Iso Roobertinkatu 35-37",
+        "latitude": 60.161821,
+        "longitude": 24.93735,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 1580,
+        "size": 66
+    },
+    {
+        "address": "Venemestarintie 4",
+        "latitude": 60.206327,
+        "longitude": 25.129967,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 989,
+        "size": 51.5
+    },
+    {
+        "address": "Juustenintie 4 B",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1208,
+        "size": 74.5
+    },
+    {
+        "address": "HENRIKINTIE 5 C",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 999,
+        "size": 59
+    },
+    {
+        "address": "Tiirismaantie 11",
+        "latitude": 60.231665,
+        "longitude": 24.9973,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 752.72,
+        "size": 59.5
+    },
+    {
+        "address": "HENRIKINTIE 5 F",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1176,
+        "size": 74.5
+    },
+    {
+        "address": "Jauhajankuja 2",
+        "latitude": 60.204991,
+        "longitude": 25.149624,
+        "nbr_rooms": "3",
+        "postal_code": "00990",
+        "price": 1345,
+        "size": 80.5
+    },
+    {
+        "address": "Kuninkaantammenkierto 12",
+        "latitude": 60.260426,
+        "longitude": 24.886923,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 960,
+        "size": 52.5
+    },
+    {
+        "address": "Piispantie 8",
+        "latitude": 60.228725,
+        "longitude": 24.845044,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 899,
+        "size": 50
+    },
+    {
+        "address": "Pasuunatie 2b",
+        "latitude": 60.24088,
+        "longitude": 24.872349,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 1212,
+        "size": 57.5
+    },
+    {
+        "address": "Viikinportti 2",
+        "latitude": 60.226627,
+        "longitude": 25.008845,
+        "nbr_rooms": "2",
+        "postal_code": "00790",
+        "price": 1120,
+        "size": 59
+    },
+    {
+        "address": "Vanhaistentie 1",
+        "latitude": 60.241812,
+        "longitude": 24.886253,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 945,
+        "size": 45
+    },
+    {
+        "address": "Juustenintie 4 A",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 957,
+        "size": 50.5
+    },
+    {
+        "address": "Pajamäentie 7",
+        "latitude": 60.218855,
+        "longitude": 24.85603,
+        "nbr_rooms": "2",
+        "postal_code": "00360",
+        "price": 979,
+        "size": 43
+    },
+    {
+        "address": "Rahakamarinportti 2",
+        "latitude": 60.201969,
+        "longitude": 24.91989,
+        "nbr_rooms": "2",
+        "postal_code": "00240",
+        "price": 378,
+        "size": 43
+    },
+    {
+        "address": "Näyttelijäntie 16 F",
+        "latitude": 60.230876,
+        "longitude": 24.896114,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 825,
+        "size": 48
+    },
+    {
+        "address": "Seltterikuja 5",
+        "latitude": 60.238588,
+        "longitude": 24.847989,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1182,
+        "size": 69
+    },
+    {
+        "address": "Ida Ekmanin tie 1",
+        "latitude": 60.224376,
+        "longitude": 24.895736,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 890,
+        "size": 48
+    },
+    {
+        "address": "Abraham Wetterin tie 16 A 11",
+        "latitude": 60.192938,
+        "longitude": 25.044664,
+        "nbr_rooms": "3",
+        "postal_code": "00880",
+        "price": 1294.86,
+        "size": 72.5
+    },
+    {
+        "address": "Juustenintie 4 A",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 1061,
+        "size": 57.5
+    },
+    {
+        "address": "Klaneettipolku 7",
+        "latitude": 60.237649,
+        "longitude": 24.875928,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 995,
+        "size": 62
+    },
+    {
+        "address": "Ida Aalbergin tie 3 a",
+        "latitude": 60.230519,
+        "longitude": 24.899078,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 979,
+        "size": 53
+    },
+    {
+        "address": "Kokkokalliontie 5 R",
+        "latitude": 60.229509,
+        "longitude": 24.851668,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 886,
+        "size": 41
+    },
+    {
+        "address": "Vattuniemenkatu 25 E-F",
+        "latitude": 60.154093,
+        "longitude": 24.884827,
+        "nbr_rooms": "2",
+        "postal_code": "00210",
+        "price": 1349,
+        "size": 50.5
+    },
+    {
+        "address": "Neulapadontie 5",
+        "latitude": 60.222354,
+        "longitude": 25.06213,
+        "nbr_rooms": "2",
+        "postal_code": "00920",
+        "price": 999,
+        "size": 57.4
+    },
+    {
+        "address": "HENRIKINTIE 7 F",
+        "latitude": 60.225239,
+        "longitude": 24.848533,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 930,
+        "size": 53.5
+    },
+    {
+        "address": "Kurjenkellonkuja 2",
+        "latitude": 60.229507,
+        "longitude": 25.07333,
+        "nbr_rooms": "3",
+        "postal_code": "00940",
+        "price": 1090,
+        "size": 73
+    },
+    {
+        "address": "Lupajantie 2",
+        "latitude": 60.233264,
+        "longitude": 25.10464,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 939,
+        "size": 53.5
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.208245,
+        "longitude": 25.158093,
+        "nbr_rooms": "3 ",
+        "postal_code": "00990",
+        "price": 1311,
+        "size": 67.5
+    },
+    {
+        "address": "Juustenintie 4 B",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "2 ",
+        "postal_code": "00410",
+        "price": 1048,
+        "size": 59
+    },
+    {
+        "address": "Stenbäckinkatu 5",
+        "latitude": 60.189418,
+        "longitude": 24.915058,
+        "nbr_rooms": "2",
+        "postal_code": "00250",
+        "price": 1129,
+        "size": 37.5
+    },
+    {
+        "address": "Ida Aalbergin tie 3 a",
+        "latitude": 60.230519,
+        "longitude": 24.899078,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 979,
+        "size": 53
+    },
+    {
+        "address": "Näyttelijäntie 24",
+        "latitude": 60.231837,
+        "longitude": 24.890646,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 979,
+        "size": 50
+    },
+    {
+        "address": "Laivalahden puistotie 5",
+        "latitude": 60.189193,
+        "longitude": 25.032782,
+        "nbr_rooms": "2",
+        "postal_code": "00810",
+        "price": 960,
+        "size": 44.5
+    },
+    {
+        "address": "Pihkatie 5",
+        "latitude": 60.251847,
+        "longitude": 24.855382,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 995,
+        "size": 56.5
+    },
+    {
+        "address": "Matruusinkatu 2",
+        "latitude": 60.166502,
+        "longitude": 24.97544,
+        "nbr_rooms": "2",
+        "postal_code": "00160",
+        "price": 1249,
+        "size": 54.5
+    },
+    {
+        "address": "Kiillekuja 4",
+        "latitude": 60.232626,
+        "longitude": 25.006155,
+        "nbr_rooms": "2",
+        "postal_code": "00710",
+        "price": 929,
+        "size": 57
+    },
+    {
+        "address": "Ansaritie 1a",
+        "latitude": 60.208495,
+        "longitude": 24.886379,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1099,
+        "size": 53
+    },
+    {
+        "address": "Aittatie 1 A 13",
+        "latitude": 60.233186,
+        "longitude": 24.845295,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 920,
+        "size": 55
+    },
+    {
+        "address": "Aurinkotuulenkatu 6, Hellekuja 1",
+        "latitude": 60.207009,
+        "longitude": 25.158176,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 1079,
+        "size": 45
+    },
+    {
+        "address": "Halkaisijantie 5",
+        "latitude": 60.202622,
+        "longitude": 25.127575,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 807,
+        "size": 44.5
+    },
+    {
+        "address": "Kirjatyöntekijänkatu 10 b 27",
+        "latitude": 60.176139,
+        "longitude": 24.95593,
+        "nbr_rooms": "2",
+        "postal_code": "01700",
+        "price": 1300,
+        "size": 65
+    },
+    {
+        "address": "Tulisuontie 5",
+        "latitude": 60.201987,
+        "longitude": 25.0625,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 882.9,
+        "size": 59.5
+    },
+    {
+        "address": "Peukaloisentie 6 C",
+        "latitude": 60.197178,
+        "longitude": 25.060501,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 800,
+        "size": 46
+    },
+    {
+        "address": "Svanströminkuja 9",
+        "latitude": 60.166456,
+        "longitude": 25.046151,
+        "nbr_rooms": "3 ",
+        "postal_code": "00870",
+        "price": 1380,
+        "size": 75
+    },
+    {
+        "address": "Svanströminkuja 9",
+        "latitude": 60.166456,
+        "longitude": 25.046151,
+        "nbr_rooms": "2 ",
+        "postal_code": "00870",
+        "price": 1044,
+        "size": 58.5
+    },
+    {
+        "address": "Kulmavuorenkatu 6",
+        "latitude": 60.18823,
+        "longitude": 24.965242,
+        "nbr_rooms": "3",
+        "postal_code": "00500",
+        "price": 1399,
+        "size": 84
+    },
+    {
+        "address": "Malmin kauppatie 6a",
+        "latitude": 60.249069,
+        "longitude": 25.00587,
+        "nbr_rooms": "2",
+        "postal_code": "00700",
+        "price": 930,
+        "size": 43.5
+    },
+    {
+        "address": "Rälssintie 5",
+        "latitude": 60.240949,
+        "longitude": 24.9849,
+        "nbr_rooms": "2",
+        "postal_code": "00720",
+        "price": 985,
+        "size": 59
+    },
+    {
+        "address": "Venemestarintie 4",
+        "latitude": 60.206271,
+        "longitude": 25.132219,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 357,
+        "size": 47.5
+    },
+    {
+        "address": "Aurinkotuulenkatu 8",
+        "latitude": 60.208245,
+        "longitude": 25.158093,
+        "nbr_rooms": "2 ",
+        "postal_code": "00990",
+        "price": 1050,
+        "size": 54
+    },
+    {
+        "address": "Näyttelijäntie 22",
+        "latitude": 60.231404,
+        "longitude": 24.892114,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 957,
+        "size": 51
+    },
+    {
+        "address": "Kantelettarentie 15",
+        "latitude": 60.244474,
+        "longitude": 24.880295,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 1253,
+        "size": 58.5
+    },
+    {
+        "address": "Kantelettarentie 15",
+        "latitude": 60.244474,
+        "longitude": 24.880295,
+        "nbr_rooms": "3",
+        "postal_code": "00420",
+        "price": 1237,
+        "size": 60
+    },
+    {
+        "address": "Kantelettarentie 15",
+        "latitude": 60.244474,
+        "longitude": 24.880295,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 1004,
+        "size": 40
+    },
+    {
+        "address": "Juustenintie 4 B",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "3",
+        "postal_code": "00410",
+        "price": 1235,
+        "size": 74.5
+    },
+    {
+        "address": "Juustenintie 6 A",
+        "latitude": 60.244241,
+        "longitude": 24.86788,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 1115,
+        "size": 61.5
+    },
+    {
+        "address": "Vanha viertotie 6",
+        "latitude": 60.209862,
+        "longitude": 24.887317,
+        "nbr_rooms": "2",
+        "postal_code": "00350",
+        "price": 1129,
+        "size": 57
+    },
+    {
+        "address": "HENRIKINTIE 5 C",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1115,
+        "size": 73.5
+    },
+    {
+        "address": "Liusketie 20",
+        "latitude": 60.237016,
+        "longitude": 25.01859,
+        "nbr_rooms": "3",
+        "postal_code": "00710",
+        "price": 1021.98,
+        "size": 69.5
+    },
+    {
+        "address": "Taidemaalarinkatu 7 C",
+        "latitude": 60.261699,
+        "longitude": 24.891729,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 1010,
+        "size": 57.5
+    },
+    {
+        "address": "Johan Bockin kuja 6",
+        "latitude": 60.240305,
+        "longitude": 24.983904,
+        "nbr_rooms": "3",
+        "postal_code": "00720",
+        "price": 1395,
+        "size": 80
+    },
+    {
+        "address": "Sulkapolku 4",
+        "latitude": 60.225046,
+        "longitude": 24.856798,
+        "nbr_rooms": "2",
+        "postal_code": "00370",
+        "price": 377,
+        "size": 51
+    },
+    {
+        "address": "Tulisuontie 5",
+        "latitude": 60.201987,
+        "longitude": 25.0625,
+        "nbr_rooms": "2",
+        "postal_code": "00820",
+        "price": 869.51,
+        "size": 60
+    },
+    {
+        "address": "Käsityöläisentie 4-10",
+        "latitude": 60.273146,
+        "longitude": 25.034819,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 377,
+        "size": 58
+    },
+    {
+        "address": "Eliel Saarisen tie 10",
+        "latitude": 60.223459,
+        "longitude": 24.896984,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 1119,
+        "size": 38.5
+    },
+    {
+        "address": "Klaavunpolku 2",
+        "latitude": 60.214097,
+        "longitude": 25.09612,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 1020,
+        "size": 48.5
+    },
+    {
+        "address": "Aleksis Kiven katu 16 A",
+        "latitude": 60.189321,
+        "longitude": 24.957375,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 1350,
+        "size": 70
+    },
+    {
+        "address": "Eskolantie 5 F",
+        "latitude": 60.245087,
+        "longitude": 24.9932,
+        "nbr_rooms": "3",
+        "postal_code": "00720",
+        "price": 1200,
+        "size": 69
+    },
+    {
+        "address": "Rakuunantie 18 A",
+        "latitude": 60.200679,
+        "longitude": 24.88461,
+        "nbr_rooms": "2",
+        "postal_code": "00330",
+        "price": 970,
+        "size": 50
+    },
+    {
+        "address": "KOKKOKALLIONTIE 3 F",
+        "latitude": 60.229047,
+        "longitude": 24.851001,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1199,
+        "size": 83.5
+    },
+    {
+        "address": "Juustenintie 4 A",
+        "latitude": 60.243951,
+        "longitude": 24.868144,
+        "nbr_rooms": "2 ",
+        "postal_code": "00410",
+        "price": 1016,
+        "size": 56.5
+    },
+    {
+        "address": "Purotie 3 / Talin puistotie 4",
+        "latitude": 60.216542,
+        "longitude": 24.868301,
+        "nbr_rooms": "3",
+        "postal_code": "00380",
+        "price": 1399,
+        "size": 82
+    },
+    {
+        "address": "Soittajantie 4",
+        "latitude": 60.24009,
+        "longitude": 24.873378,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 948.89,
+        "size": 48
+    },
+    {
+        "address": "Kalteentie 3",
+        "latitude": 60.264701,
+        "longitude": 25.084755,
+        "nbr_rooms": "2",
+        "postal_code": "00770",
+        "price": 820,
+        "size": 50.5
+    },
+    {
+        "address": "Pasuunatie 4 b B",
+        "latitude": 60.241298,
+        "longitude": 24.871115,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 945,
+        "size": 42
+    },
+    {
+        "address": "Merikapteenintie 34",
+        "latitude": 60.248885,
+        "longitude": 25.230216,
+        "nbr_rooms": "2",
+        "postal_code": "00890",
+        "price": 790,
+        "size": 48
+    },
+    {
+        "address": "Temperankatu 2 B",
+        "latitude": 60.261724,
+        "longitude": 24.890945,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 1070,
+        "size": 61.5
+    },
+    {
+        "address": "Merimiehenkatu 16 A",
+        "latitude": 60.16064,
+        "longitude": 24.93937,
+        "nbr_rooms": "2",
+        "postal_code": "00150",
+        "price": 1000,
+        "size": 43
+    },
+    {
+        "address": "Vähäntuvantie 6",
+        "latitude": 60.232499,
+        "longitude": 24.848888,
+        "nbr_rooms": "3",
+        "postal_code": "00390",
+        "price": 1135,
+        "size": 53
+    },
+    {
+        "address": "Taidemaalarinkatu 7 B",
+        "latitude": 60.261699,
+        "longitude": 24.891729,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 915,
+        "size": 47.5
+    },
+    {
+        "address": "Lauttasaarentie 45",
+        "latitude": 60.161383,
+        "longitude": 24.871271,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 361,
+        "size": 45
+    },
+    {
+        "address": "Temperankatu 2 B",
+        "latitude": 60.261724,
+        "longitude": 24.890945,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 1020,
+        "size": 58.5
+    },
+    {
+        "address": "Temperankatu 2 A",
+        "latitude": 60.261724,
+        "longitude": 24.890945,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 1020,
+        "size": 58.5
+    },
+    {
+        "address": "Taidemaalarinkatu 7 B",
+        "latitude": 60.261699,
+        "longitude": 24.891729,
+        "nbr_rooms": "2",
+        "postal_code": "00430",
+        "price": 910,
+        "size": 47.5
+    },
+    {
+        "address": "Naavapolku 1",
+        "latitude": 60.253427,
+        "longitude": 24.849186,
+        "nbr_rooms": "2",
+        "postal_code": "00410",
+        "price": 891.15,
+        "size": 61
+    },
+    {
+        "address": "Leikosaarentie 26",
+        "latitude": 60.204114,
+        "longitude": 25.146854,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 960,
+        "size": 52.5
+    },
+    {
+        "address": "Ristipellontie 6",
+        "latitude": 60.238335,
+        "longitude": 24.852082,
+        "nbr_rooms": "2",
+        "postal_code": "00390",
+        "price": 377,
+        "size": 53
+    },
+    {
+        "address": "HENRIKINTIE 5 C",
+        "latitude": 60.225028,
+        "longitude": 24.848881,
+        "nbr_rooms": "3",
+        "postal_code": "00370",
+        "price": 1129,
+        "size": 74.5
+    },
+    {
+        "address": "Stenbäckinkatu 5",
+        "latitude": 60.189418,
+        "longitude": 24.915058,
+        "nbr_rooms": "2",
+        "postal_code": "00250",
+        "price": 1129,
+        "size": 48
+    },
+    {
+        "address": "Kyytimiehenkatu 1 G",
+        "latitude": 60.262046,
+        "longitude": 25.06881,
+        "nbr_rooms": "3",
+        "postal_code": "00770",
+        "price": 1140,
+        "size": 58
+    },
+    {
+        "address": "Sorvaajankatu 1 B 19",
+        "latitude": 60.192918,
+        "longitude": 25.04276,
+        "nbr_rooms": "3",
+        "postal_code": "00880",
+        "price": 1367.1,
+        "size": 73.5
+    },
+    {
+        "address": "Kytösuontie 8",
+        "latitude": 60.205867,
+        "longitude": 24.895755,
+        "nbr_rooms": "3",
+        "postal_code": "00300",
+        "price": 1400,
+        "size": 67.5
+    },
+    {
+        "address": "Lapinlahdenkatu 14 A",
+        "latitude": 60.16739,
+        "longitude": 24.92372,
+        "nbr_rooms": "2 ",
+        "postal_code": "00180",
+        "price": 1210,
+        "size": 61.5
+    },
+    {
+        "address": "Kalteentie 3",
+        "latitude": 60.264701,
+        "longitude": 25.084755,
+        "nbr_rooms": "3",
+        "postal_code": "00770",
+        "price": 1030,
+        "size": 80
+    },
+    {
+        "address": "Jauhajankuja 2",
+        "latitude": 60.204972,
+        "longitude": 25.149482,
+        "nbr_rooms": "3 ",
+        "postal_code": "00990",
+        "price": 1345,
+        "size": 80.5
+    },
+    {
+        "address": "Sipoonkatu 4 ",
+        "latitude": 60.194367,
+        "longitude": 24.93862,
+        "nbr_rooms": "2",
+        "postal_code": "00520",
+        "price": 1150,
+        "size": 40.5
+    },
+    {
+        "address": "Sulkapolku 6",
+        "latitude": 60.225031,
+        "longitude": 24.85734,
+        "nbr_rooms": "2 ",
+        "postal_code": "00370",
+        "price": 1300,
+        "size": 32
+    },
+    {
+        "address": "Aarteenetsijäntie 8",
+        "latitude": 60.237823,
+        "longitude": 25.101215,
+        "nbr_rooms": "2",
+        "postal_code": "00970",
+        "price": 335,
+        "size": 60
+    },
+    {
+        "address": "Klaavunpolku 2",
+        "latitude": 60.214097,
+        "longitude": 25.09612,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 1120,
+        "size": 53.5
+    },
+    {
+        "address": "Klaavunpolku 2",
+        "latitude": 60.214097,
+        "longitude": 25.09612,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 1060,
+        "size": 53.5
+    },
+    {
+        "address": "Klaavunpolku 2",
+        "latitude": 60.214097,
+        "longitude": 25.09612,
+        "nbr_rooms": "2",
+        "postal_code": "00910",
+        "price": 950,
+        "size": 48.5
+    },
+    {
+        "address": "Yläkiventie 6",
+        "latitude": 60.221523,
+        "longitude": 25.070852,
+        "nbr_rooms": "2",
+        "postal_code": "00920",
+        "price": 336,
+        "size": 62
+    },
+    {
+        "address": "Vaasankatu 9",
+        "latitude": 60.188344,
+        "longitude": 24.95861,
+        "nbr_rooms": "2",
+        "postal_code": "00500",
+        "price": 980,
+        "size": 50
+    },
+    {
+        "address": "Pertunpellonraitti 3",
+        "latitude": 60.265864,
+        "longitude": 24.991461,
+        "nbr_rooms": "2",
+        "postal_code": "00740",
+        "price": 356,
+        "size": 60.5
+    },
+    {
+        "address": "Neitsytsaarentie 3",
+        "latitude": 60.222745,
+        "longitude": 25.140038,
+        "nbr_rooms": "2",
+        "postal_code": "00960",
+        "price": 336,
+        "size": 55
+    },
+    {
+        "address": "Vattuniemenkuja 3",
+        "latitude": 60.15392,
+        "longitude": 24.885557,
+        "nbr_rooms": "2",
+        "postal_code": "00210",
+        "price": 383,
+        "size": 45
+    },
+    {
+        "address": "Porslahdentie 24",
+        "latitude": 60.212719,
+        "longitude": 25.149112,
+        "nbr_rooms": "2",
+        "postal_code": "00980",
+        "price": 832.17,
+        "size": 56.5
+    },
+    {
+        "address": "Porslahdentie 24",
+        "latitude": 60.212719,
+        "longitude": 25.149112,
+        "nbr_rooms": "3",
+        "postal_code": "00980",
+        "price": 996.03,
+        "size": 69
+    },
+    {
+        "address": "Pajupillintie 26",
+        "latitude": 60.242717,
+        "longitude": 24.887279,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 377,
+        "size": 42
+    },
+    {
+        "address": "Käsityöläisentie 4-10",
+        "latitude": 60.273146,
+        "longitude": 25.034819,
+        "nbr_rooms": "2",
+        "postal_code": "00750",
+        "price": 377,
+        "size": 60
+    },
+    {
+        "address": "Santavuorentie 6",
+        "latitude": 60.223296,
+        "longitude": 24.904093,
+        "nbr_rooms": "2",
+        "postal_code": "00400",
+        "price": 356,
+        "size": 44
+    },
+    {
+        "address": "Mannerheimintie 150",
+        "latitude": 60.194893,
+        "longitude": 24.90172,
+        "nbr_rooms": "2",
+        "postal_code": "00270",
+        "price": 356,
+        "size": 41
+    },
+    {
+        "address": "Kantelettarentie 4",
+        "latitude": 60.239123,
+        "longitude": 24.886607,
+        "nbr_rooms": "2",
+        "postal_code": "00420",
+        "price": 377,
+        "size": 49
+    },
+    {
+        "address": "Tilkankatu 2",
+        "latitude": 60.203166,
+        "longitude": 24.895561,
+        "nbr_rooms": "2",
+        "postal_code": "00300",
+        "price": 377,
+        "size": 35.5
+    },
+    {
+        "address": "Lauttasaarentie 44",
+        "latitude": 60.16093,
+        "longitude": 24.873447,
+        "nbr_rooms": "2",
+        "postal_code": "00200",
+        "price": 383,
+        "size": 37
+    },
+    {
+        "address": "Koroistentie 11",
+        "latitude": 60.201339,
+        "longitude": 24.902661,
+        "nbr_rooms": "2",
+        "postal_code": "00280",
+        "price": 377,
+        "size": 34
+    },
+    {
+        "address": "Rakuunantie 12",
+        "latitude": 60.199508,
+        "longitude": 24.884663,
+        "nbr_rooms": "2",
+        "postal_code": "00330",
+        "price": 356,
+        "size": 44
+    },
+    {
+        "address": "Kylänvanhimmantie 30",
+        "latitude": 60.228118,
+        "longitude": 24.961663,
+        "nbr_rooms": "2",
+        "postal_code": "00640",
+        "price": 377,
+        "size": 47
+    },
+    {
+        "address": "Alakiventie 3",
+        "latitude": 60.222306,
+        "longitude": 25.077125,
+        "nbr_rooms": "2",
+        "postal_code": "00920",
+        "price": 357,
+        "size": 41
+    },
+    {
+        "address": "Tyynelänkuja 2",
+        "latitude": 60.253319,
+        "longitude": 24.995175,
+        "nbr_rooms": "2",
+        "postal_code": "00780",
+        "price": 356,
+        "size": 55
+    },
+    {
+        "address": "Leikosaarentie 29",
+        "latitude": 60.204654,
+        "longitude": 25.153333,
+        "nbr_rooms": "2",
+        "postal_code": "00990",
+        "price": 336,
+        "size": 46
+    }
+]
