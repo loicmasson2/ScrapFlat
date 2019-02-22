@@ -16,7 +16,7 @@ import {
     Image,
     Text
 } from 'grommet';
-import { FormClose, Notification } from 'grommet-icons';
+import { Notification } from 'grommet-icons';
 //d2ue5ppt0wsjaa.cloudfront.net/640x427,fit/vuokraovimedia/images/154/868/873/057/15486887305760_original.jpg
 //d2ue5ppt0wsjaa.cloudfront.net/108x81%2Cfit/vuokraovimedia/images/154/868/873/057/15486887305760_original.jpg
 
@@ -144,9 +144,7 @@ export const query = graphql`
         allDataJson {
             edges {
                 node {
-                    address
                     availability
-                    image
                     link
                     moreInfo {
                         moreInfo
@@ -156,7 +154,30 @@ export const query = graphql`
                         hasBalcony
                     }
                     name
-                    price
+                    imageGallery
+                    productInfo {
+                        productInfo {
+                            productId
+                            basePrice
+                            priceSpecification
+                            sku
+                            productName
+                            description
+                            geoCoordinates {
+                                latitude
+                                longitude
+                                address {
+                                    addressLocality
+                                    addressRegion
+                                    postalCode
+                                    streetAddress
+                                }
+                            }
+                            productRoomDescription
+                            productRoomCount
+                            productRentalType
+                        }
+                    }
                 }
             }
         }

@@ -22,8 +22,9 @@ function dumpError(err) {
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
 async function getInitialData() {
+    console.time('ALL');
     try {
-        let pagesToScrape = 1;
+        let pagesToScrape = 3;
         const websiteUrl = 'https://www.vuokraovi.com/?locale=en';
         const browser = await puppeteer.launch({ devtools: true });
         const page = await browser.newPage();
@@ -37,15 +38,15 @@ async function getInitialData() {
         // await page.keyboard.press('Enter');
         // select the number of rooms that I want
         let ROOM_2_BUTTON = '#roomCountButtons > div:nth-child(2) > button:nth-child(1)';
-        await page.click(ROOM_2_BUTTON);
+        // await page.click(ROOM_2_BUTTON);
         let ROOM_3_BUTTON = '#roomCountButtons > div:nth-child(3) > button:nth-child(1)';
-        await page.click(ROOM_3_BUTTON);
+        // await page.click(ROOM_3_BUTTON);
         // pick the minimum price and the maximum
-        await page.type('#rentalsMinRent', '800');
-        await page.type('#rentalsMaxRent', '1600');
+        // await page.type('#rentalsMinRent', '800');
+        // await page.type('#rentalsMaxRent', '1600');
         // minimum surface and maximum
-        await page.type('#surfaceMin', '30');
-        await page.type('#surfaceMax', '90');
+        // await page.type('#surfaceMin', '30');
+        // await page.type('#surfaceMax', '90');
         await page.focus('#inputLocationOrRentalUniqueNo');
 
         await page.click('.margin-top-xs-0 > button:nth-child(1)');
@@ -55,10 +56,11 @@ async function getInitialData() {
         const nbrFlastText = await page.evaluate(() =>
             document.querySelector('span.bold:nth-child(1)').innerText.split(' ')
         );
-
-        pagesToScrape = Math.ceil(nbrFlastText[0] / 20);
+        const nbrFlash = parseFloat(nbrFlastText[0].replace(/,/g, ''));
+        pagesToScrape = Math.ceil(nbrFlash / 20);
         let currentPage = 1;
         let urls = [];
+        console.log('Page to scrape: ' + pagesToScrape);
         while (currentPage <= pagesToScrape) {
             let newUrls = await page.evaluate(() => {
                 function dumpError(err) {
@@ -94,13 +96,9 @@ async function getInitialData() {
                                 hasBalcony: hasBalcony.test(moreInfo),
                                 hasBathroom: hasBathroom.test(moreInfo)
                             },
-                            price: item.querySelector('ul.list-unstyled > li:nth-child(4) > span:nth-child(1)')
-                                .innerText,
                             link:
                                 'https://www.vuokraovi.com' +
                                 item.querySelector('.list-item-link').getAttribute('href'),
-                            image: item.querySelector('a > div > img ').src.replace('108x81', '640x480'),
-                            address: item.querySelector('.address').innerText,
                             availability: item.querySelector('span:nth-child(2) > ul:nth-child(1) > li:nth-child(1)')
                                 .innerText
                         });
@@ -112,6 +110,7 @@ async function getInitialData() {
             });
             urls = urls.concat(newUrls);
             console.log(`current page ${currentPage}`);
+
             if (currentPage < pagesToScrape) {
                 await Promise.all([
                     await page.evaluate(selector => document.querySelector(selector).click(), 'img[src*="right.svg"]'),
@@ -121,19 +120,34 @@ async function getInitialData() {
             await delay(5000);
             currentPage++;
         }
-
-        // page.removeAllListeners();
         try {
-            for (let i = 0; i < urls.length; i++) {
-                if (urls[i] !== null || urls[i] !== 'undefined') {
-                    const url = urls[i].link;
-                    await page.goto(`${url}`);
-                    let functionToInject = function() {
-                        return window.digitalData;
-                    };
-                    let data = await page.evaluate(functionToInject);
+            console.log('NORMAL LENGTH');
+            console.log(urls.length);
+            let last_element = urls[urls.length - 1];
+            console.log(last_element);
+            for (let i = urls.length - 1; i >= 0; i--) {
+                if (!urls[i]) {
+                    console.log('ERROR at index: ' + i);
+                    console.log(urls[i]);
+                    console.log(typeof urls[i]);
+                    continue;
+                }
+                const url = urls[i].link;
+                await page.goto(`${url}`);
+                let functionToInject = function() {
+                    return window.digitalData;
+                };
+                let data = await page.evaluate(functionToInject);
+                // when we try to go to a link and the function fail, that means the offer is not available anymore
+                if (typeof data === 'undefined') {
+                    console.log('SHOULD REMOVE');
+                    console.log(i);
+                    console.log(url);
+                    urls.splice(i, 1);
+                    continue;
+                } else {
                     let [productInfo] = data.product;
-                    urls[i].productInfo = productInfo;
+                    urls[i].productInfo = productInfo.productInfo;
                     urls[i].imageGallery = await page.evaluate(() => {
                         let allImages = [];
                         let els = document.getElementsByClassName('cycle-slide');
@@ -143,16 +157,21 @@ async function getInitialData() {
                         });
                         return allImages;
                     });
-                    await delay(5000);
                 }
+                await delay(5000);
             }
         } catch (e) {
             dumpError(e);
         }
-        let json = JSON.stringify(urls);
+        let filtered = urls.filter(function(el) {
+            return el != null;
+        });
+
+        let json = JSON.stringify(filtered);
         fs.writeFile('myjsonfile.json', json, 'utf8');
 
         await browser.close();
+        console.timeEnd('ALL');
         return urls;
     } catch (e) {
         return dumpError(e);

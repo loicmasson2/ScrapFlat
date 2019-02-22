@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "masson.loic.023@gmail.com",
   "dependencies": {
+    "d3": "^5.9.1",
     "gatsby": "^2.0.76",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-google-fonts": "0.0.4",
@@ -16,6 +17,7 @@
     "gatsby-transformer-json": "^2.1.7",
     "gatsby-transformer-sharp": "^2.1.8",
     "grommet": "^2.3.1",
+    "lodash": "^4.17.11",
     "mapbox-gl": "^0.53.0-beta.1",
     "polished": "^2.3.3",
     "prop-types": "^15.6.2",
