@@ -1,0 +1,12 @@
+{
+    "name": "ScrapFlat",
+    "version": "0.0.1",
+    "description": "Web scraper from rental website",
+    "main": "app.js",
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "file-system": "^2.2.2",
+        "puppeteer": "^1.3.0"
+    }
+}

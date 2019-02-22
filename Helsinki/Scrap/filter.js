@@ -1,15 +1,13 @@
 const fs = require('file-system');
 
-const scraperData = require('./almostAll.json');
+const scraperData = require('./save22_02.json');
 let removeWrongValues = scraperData.filter(d => {
     let product = d.productInfo;
     let split = d.name.split(' ');
     let size = split[split.length - 2];
-    let moreInfo = d.moreInfo.moreInfo;
+    let moreInfo = d.moreInfo;
     return !(
         size === 0 ||
-        Number(product.basePrice) === 0 ||
-        Number(product.basePrice) > 1600 ||
         moreInfo === 'Omahuone' ||
         moreInfo.length > 40 ||
         product.productRoomCount === 'Yksiö' ||

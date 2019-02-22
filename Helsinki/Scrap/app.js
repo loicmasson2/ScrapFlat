@@ -20,16 +20,75 @@ function dumpError(err) {
 }
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
+let nbrErrors = 0;
 
-async function getInitialData() {
+let scrape = async () => {
     console.time('ALL');
     try {
-        let pagesToScrape = 3;
+        let pagesToScrape = 1;
         const websiteUrl = 'https://www.vuokraovi.com/?locale=en';
-        const browser = await puppeteer.launch({ devtools: true });
+        const browser = await puppeteer.launch({
+            headless: true,
+            args: [
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--disable-accelerated-2d-canvas',
+                '--disable-gpu',
+                '--window-size=1920x1080'
+            ]
+        });
+
+        const blockedResourceTypes = [
+            'image',
+            'media',
+            'font',
+            'texttrack',
+            'object',
+            'beacon',
+            'csp_report',
+            'imageset'
+        ];
+
+        const skippedResources = [
+            'quantserve',
+            'adzerk',
+            'doubleclick',
+            'adition',
+            'exelator',
+            'sharethrough',
+            'cdn.api.twitter',
+            'google-analytics',
+            'googletagmanager',
+            'google',
+            'fontawesome',
+            'facebook',
+            'analytics',
+            'optimizely',
+            'clicktale',
+            'mixpanel',
+            'zedo',
+            'clicksor',
+            'tiqcdn'
+        ];
+
         const page = await browser.newPage();
-        await page.setViewport({ width: 1920, height: 1080 });
-        await page.goto(websiteUrl);
+        // await page.setRequestInterception(true);
+        await page.setUserAgent('ScrapFlat(+https://github.com/loicmasson2/ScrapFlat)');
+        // page.on('request', request => {
+        //     const requestUrl = request._url.split('?')[0].split('#')[0];
+        //     if (
+        //         blockedResourceTypes.indexOf(request.resourceType()) !== -1 ||
+        //         skippedResources.some(resource => requestUrl.indexOf(resource) !== -1)
+        //     ) {
+        //         request.abort();
+        //     } else {
+        //         request.continue();
+        //     }
+        // });
+        await page.goto(websiteUrl, {
+            timeout: 25000,
+            waitUntil: 'networkidle2'
+        });
 
         // wait to have the input for the city
         await page.waitForSelector('#inputLocationOrRentalUniqueNo');
@@ -38,15 +97,15 @@ async function getInitialData() {
         // await page.keyboard.press('Enter');
         // select the number of rooms that I want
         let ROOM_2_BUTTON = '#roomCountButtons > div:nth-child(2) > button:nth-child(1)';
-        // await page.click(ROOM_2_BUTTON);
+        await page.click(ROOM_2_BUTTON);
         let ROOM_3_BUTTON = '#roomCountButtons > div:nth-child(3) > button:nth-child(1)';
-        // await page.click(ROOM_3_BUTTON);
+        await page.click(ROOM_3_BUTTON);
         // pick the minimum price and the maximum
-        // await page.type('#rentalsMinRent', '800');
-        // await page.type('#rentalsMaxRent', '1600');
+        await page.type('#rentalsMinRent', '600');
+        await page.type('#rentalsMaxRent', '1600');
         // minimum surface and maximum
-        // await page.type('#surfaceMin', '30');
-        // await page.type('#surfaceMax', '90');
+        await page.type('#surfaceMin', '30');
+        await page.type('#surfaceMax', '90');
         await page.focus('#inputLocationOrRentalUniqueNo');
 
         await page.click('.margin-top-xs-0 > button:nth-child(1)');
@@ -63,51 +122,26 @@ async function getInitialData() {
         console.log('Page to scrape: ' + pagesToScrape);
         while (currentPage <= pagesToScrape) {
             let newUrls = await page.evaluate(() => {
-                function dumpError(err) {
-                    if (typeof err === 'object') {
-                        if (err.message) {
-                            console.log('\nMessage: ' + err.message);
-                        }
-                        if (err.stack) {
-                            console.log('\nStacktrace:');
-                            console.log('====================');
-                            console.log(err.stack);
-                        }
-                    } else {
-                        console.log('dumpError :: argument is not an object');
-                    }
-                }
                 try {
                     let results = [];
                     let items = document.querySelectorAll('div.list-item-container');
-                    let hasSauna = new RegExp('\\s*\\+*(s|sauna)\\+*\\s*', 'gi');
-                    let hasKitchen = new RegExp('\\s*\\+*(k|Keittiö)\\+*\\s*', 'gi');
-                    let hasBalcony = new RegExp('\\s*\\+*(p|Parveke)\\+*\\s*', 'gi');
-                    let hasBathroom = new RegExp('\\s*\\+*(kph|kh|Kylpyhuone)\\+*\\s*', 'gi');
                     items.forEach(item => {
-                        let moreInfo = item.querySelector('ul.list-unstyled > li.semi-bold:nth-child(2)').innerText;
-                        results.push({
-                            name: item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText,
-                            moreInfo: {
-                                moreInfo,
-                                nbrRooms: moreInfo.substr(0, moreInfo.indexOf('h')),
-                                hasSauna: hasSauna.test(moreInfo),
-                                hasKitchen: hasKitchen.test(moreInfo),
-                                hasBalcony: hasBalcony.test(moreInfo),
-                                hasBathroom: hasBathroom.test(moreInfo)
-                            },
-                            link:
-                                'https://www.vuokraovi.com' +
-                                item.querySelector('.list-item-link').getAttribute('href'),
-                            availability: item.querySelector('span:nth-child(2) > ul:nth-child(1) > li:nth-child(1)')
-                                .innerText
-                        });
+                        if (item) {
+                            results.push({
+                                name: item.querySelector('ul.list-unstyled > li.semi-bold:first-child').innerText,
+                                moreInfo: item.querySelector('ul.list-unstyled > li.semi-bold:nth-child(2)').innerText,
+                                link:
+                                    'https://www.vuokraovi.com' +
+                                    item.querySelector('.list-item-link').getAttribute('href')
+                            });
+                        }
                     });
                     return results;
                 } catch (e) {
-                    dumpError(e);
+                    return e;
                 }
             });
+
             urls = urls.concat(newUrls);
             console.log(`current page ${currentPage}`);
 
@@ -121,19 +155,23 @@ async function getInitialData() {
             currentPage++;
         }
         try {
-            console.log('NORMAL LENGTH');
-            console.log(urls.length);
-            let last_element = urls[urls.length - 1];
-            console.log(last_element);
-            for (let i = urls.length - 1; i >= 0; i--) {
+            let nbrOfItems = urls.length;
+            let index = 1;
+            for (let i = nbrOfItems - 1; i >= 0; i--) {
+                console.log(`We are at ${index} on ${nbrOfItems}`);
+                console.log(`${nbrOfItems - index} object remaining`);
+                console.log(`${(nbrOfItems - index) * 5} seconds remaining`);
+                console.log(`${(((nbrOfItems - index) * 5) / 60).toFixed(1)} minutes remaining`);
+
                 if (!urls[i]) {
                     console.log('ERROR at index: ' + i);
                     console.log(urls[i]);
                     console.log(typeof urls[i]);
+                    nbrErrors++;
                     continue;
                 }
                 const url = urls[i].link;
-                await page.goto(`${url}`);
+                await page.goto(url, { waitUntil: 'networkidle2' });
                 let functionToInject = function() {
                     return window.digitalData;
                 };
@@ -144,6 +182,8 @@ async function getInitialData() {
                     console.log(i);
                     console.log(url);
                     urls.splice(i, 1);
+                    nbrErrors++;
+
                     continue;
                 } else {
                     let [productInfo] = data.product;
@@ -159,6 +199,7 @@ async function getInitialData() {
                     });
                 }
                 await delay(5000);
+                index++;
             }
         } catch (e) {
             dumpError(e);
@@ -168,7 +209,7 @@ async function getInitialData() {
         });
 
         let json = JSON.stringify(filtered);
-        fs.writeFile('myjsonfile.json', json, 'utf8');
+        fs.writeFile('../data/scrapper.json', json, 'utf8');
 
         await browser.close();
         console.timeEnd('ALL');
@@ -176,32 +217,8 @@ async function getInitialData() {
     } catch (e) {
         return dumpError(e);
     }
-}
-// async function getMoreData() {
-//     let listFlats = await getInitialData();
-//     const browser = await puppeteer.launch({ devtools: true });
-//     const page = await browser.newPage();
-//     await page.setViewport({ width: 1920, height: 1080 });
-//     listFlats.map(async flat => {
-//         // console.log(flat.link);
-//         await page.goto(flat.link);
-//         await page.waitForNavigation();
-//         let functionToInject = function() {
-//             return window.digitalData;
-//         };
-//         let data = await page.evaluate(functionToInject);
-//         console.log(data);
-//         let imageGallery = await page.evaluate(() => {
-//             let allImages = [];
-//             let items = document.getElementsByClassName('cycle-slide');
-//             items.map(item => {
-//                 allImages.push(item);
-//             });
-//             return allImages;
-//         });
-//         console.log(imageGallery);
-//         await delay(5000);
-//     });
-// }
+};
 
-getInitialData();
+scrape().then(value => {
+    console.log(`SUCCESS with only ${nbrErrors} errors`); //success
+});
