@@ -1,3 +1,4 @@
+
 #%%
 import numpy as np
 import time
@@ -10,7 +11,7 @@ import seaborn as sns
 from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 import plotly.tools as tools
 
-df = pd.read_json('filtered.json')
+df = pd.read_json('data.json')
 
 df.head()
 

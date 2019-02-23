@@ -62,3 +62,6 @@ typings/
 
 # visual studio code
 .vs.code
+
+# mac file 
+.DS_Store
