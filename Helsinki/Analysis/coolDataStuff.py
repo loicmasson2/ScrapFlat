@@ -12,10 +12,15 @@ import plotly.tools as tools
 
 df = pd.read_json('filtered.json')
 
-numeric_cols = ['size', 'latitude', 'longitude', 'price', 'postal_code', 'nbr_rooms']
+df.head()
 
-for col in numeric_cols:
-    df[col] = df[col].astype(float)
+# numeric_cols = ['size', 'latitude', 'longitude', 'price', 'postal_code', 'nbr_rooms']
+
+# for col in numeric_cols:
+#     df[col] = df[col].astype(float)
+
+# Extra: We will create one additional column, "price per meter", which is simply normalized price by apartment size.
+# df['price_per_meter'] = df['price'] / df['size']
 
 #%%
 import folium
