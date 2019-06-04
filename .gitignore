@@ -61,7 +61,7 @@ typings/
 .next
 
 # visual studio code
-.vs.code
+*.vs.code
 
 # mac file 
 .DS_Store
